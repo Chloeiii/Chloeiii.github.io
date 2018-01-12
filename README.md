@@ -4,6 +4,7 @@
 ----
 #### TUTORIALS && TOOLS 
 * HTML tutorial: https://www.w3schools.com/html/html_intro.asp  
+* Jquery tutorial: https://www.w3schools.com/JQuery/  
 * Adobe Dreamweaver: http://www.adobe.com/cn/products/dreamweaver/free-trial-download.html  
 ----
 
