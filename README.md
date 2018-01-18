@@ -24,7 +24,7 @@
 #### TO DO LIST
 * main page basic(resume + experience + projects + contact + blog/notes)
 	* redesign navigation bar
-	* replace main page photo  
+	* ~~design and replace main page background photo~~    
 * resume page
 * contact page
 * experience page

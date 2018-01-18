@@ -1,67 +1,46 @@
+/*Chloe Yu 2018*/
 body {
-	font-size: 1.2rem;
-	line-height: 1.618;
-    max-width: 38em;
-    margin: auto;
-    background-color: #f9f9f9;
-    height: calc(100vh - 40px);
-    padding: 13px;
+	/*background image*/
+    background-image:  url('../img/background.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+	background-size: 90px 90px;
+
+	margin: 0;
 }
 
 header{
-	background: #F7ECEA
-
 }
 
-ul.navbar {
-	display: inline-block;
-    padding: 7em;
-	list-style:none;
-	text-align:center;
+/*navigation bar*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #FDEBD0;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
-ul.navbar li {
-    margin: 0 auto;
-    list-style: none;
-    display:inline;
-    margin-left: 30px;
-}
-
-ul.navbar a {
-	text-decoration: none; 
+/*text on navigation bar*/
+li a{
 	font-family: cursive;
-	text-transform: uppercase;
-	font-size: 0.8rem;
-	display:inline-block;
-	text-align:center;	
+    display: block;
+    color: #362008;
+    padding: 22px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-a:link {
-	color: blue 
+li a.active {
+    background-color: #6E2C00;
+    color: white;
 }
 
-a:visited {
-	color: purple 
-	font-weight: bold;
-}
-
-
-address {
-	margin-top: 15em;
-	padding-top: 10em;
-	padding-left: 0.2cm;
-	border-top: solid; 
-	border-width: 4px;
-	border-color: #FCFCFC;
-	font-family: cursive;
-	font-size: 0.8rem;
-}
-
-img.pic{
-	padding: 5 2px;
-	display: block;
-    margin: 0 auto;
-    border-style: double;
-    border-width: 15px;
-    border-color: #D1C7C6;
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
 }
