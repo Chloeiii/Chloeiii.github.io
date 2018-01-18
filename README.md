@@ -22,11 +22,21 @@
 ----
 
 #### TO DO LIST
-* main page basic(resume + experience + projects + contact + blog/notes)
+* main page basic & fixed navigation bar 
 	* redesign navigation bar
 	* ~~design and replace main page background photo~~    
+* cover page
+	* profile photo
+	* contact icons
+	* top layer wallpaper
 * resume page
-* contact page
+	* redesin resume page
+	* top layer wallpaper
 * experience page
+	* top layer wallpaper
 * projects page 
+	* top layer wallpaper
 * blog/notes page 
+	* top layer wallpaper
+* other
+

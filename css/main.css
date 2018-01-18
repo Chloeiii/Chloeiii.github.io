@@ -1,15 +1,19 @@
 /*Chloe Yu 2018*/
-body {
-	/*background image*/
+
+/*divide main page into 4 parts*/
+html, body { height: 100%; padding: 0; margin: 0; }
+div { 
+	width: 100%; 
+	height: 100%; 
+	float: left; 
+}
+
+/*background image*/
+body {	
     background-image:  url('../img/background.jpg');
     background-repeat: repeat;
     background-size: auto;
 	background-size: 90px 90px;
-
-	margin: 0;
-}
-
-header{
 }
 
 /*navigation bar*/
@@ -28,7 +32,7 @@ ul{
 li a{
 	font-family: cursive;
     display: block;
-    color: #362008;
+    color: #7E4B14;
     padding: 22px 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -44,3 +48,10 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
+/*resume pdf*/
+div iframe{
+	padding-top: 2%;
+	padding-left: 15%;
+}
+
