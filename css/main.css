@@ -42,7 +42,9 @@ a:link {
 
 a:visited {
 	color: purple 
+	font-weight: bold;
 }
+
 
 address {
 	margin-top: 15em;
