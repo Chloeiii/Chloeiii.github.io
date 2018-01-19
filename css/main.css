@@ -5,7 +5,6 @@ html, body { height: 100%; padding: 0; margin: 0; }
 div { 
 	width: 100%; 
 	height: 100%; 
-	/*float: left; */
 }
 
 /*background image*/
@@ -13,16 +12,17 @@ body {
   background-image:  url('../img/background.jpg');
   background-repeat: repeat;
 	background-size: 90px 90px;
-
+  background-attachment: fixed;
 	margin: 0;
  	padding: 0;
 }
 
-/*navigation bar*/
+/*-------------navigation bar--------------------*/
 ul {
+  z-index: 100;
   position: fixed;
   width: 100%;
-  background-color:#FDEBD0;
+  background-color:rgba(252, 243, 207, 0.7);
   text-align: center;
   list-style: none;
   padding-right: 40px;
@@ -42,7 +42,8 @@ li {
 li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #7E4B14;
+  font-weight: bold;
+  color: black;
   display: block;
   padding: 20px;
 }
@@ -62,53 +63,66 @@ li a:hover:not(.active) {
 .aboutpage img{
   width:200;
   height:200px;
-  margin-top: 9%; 
-  padding-left: 30%; 
-  padding-right: 30%;
-  padding-top: 7%;
+  margin-top: 5%; 
+  padding-left: 35%; 
+  padding-right: 35%;
+  padding-top: 10%;
   padding-bottom: 20%;
   background-color: rgba(250, 229, 211, 0.3);
   background-size:50% 60%;
   background-repeat:no-repeat;
+  border-style: solid;
+  border-width: 30px 30px;
+  border-color: rgb(81, 90, 90);
+  /*border:30px solid rgba(81, 90, 90);*/
 }
 
-/*resume page*/
-.resumepage .image1{
-  margin: auto;
-  height: auto;
-  max-height: 100%;
-  width: auto;
-  max-width: 100%;
+/*-----------resume page-------------------------*/
+.resumepage{
+  z-index: 97;
+  background-image: url("../img/draw.jpg");
+  background-size: 100% 110%;
+  position: relative;
 }
-/*
-div iframe{
-  z-index: 100;
-  position: absolute;
-	padding-top: 4%; 
-}*/
+
+.resumepage img{
+  z-index: 98;
+  position: relative;
+  display: inline-block;
+  margin: 10% 35%;
+  width:400px;
+  height:500px;
+  opacity: 0.5;
+}
+
+.resumepage img:hover {
+  opacity:1;
+  top:-4px;
+  left:-10px;
+  width:420px;
+  height:auto;
+}
 
 
-/*experience page*/
+
+
+/*--------------experience page----------------------*/
 .experiencepage img{
   display: block;
   margin: auto;
-
   height: auto;
   max-height: 100%;
-
   width: auto;
   max-width: 100%;
   background-color: rgba(235, 245, 251, 0.5);
 }
 
-/*project page*/
+/*--------------project page-------------------------*/
 .projectspage img{
   display: block;
   margin: auto;
-
   height: auto;
   max-height: 100%;
-
   width: auto;
   max-width: 100%;
   background-color: rgba(209, 242, 235, 0.5);

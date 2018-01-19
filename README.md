@@ -27,15 +27,17 @@
 	* redesign navigation bar
 	* ~~design and replace main page background photo~~    
 * cover page
-	* profile photo
+	* ~~profile photo~~
 	* contact icons
-	* top layer wallpaper
+	* ~~top layer wallpaper~~
 * resume page
-	* redesin resume page
+	* ~~redesign resume page~~
 	* ~~top layer wallpaper~~  
 * experience page  
 	* ~~top layer wallpaper~~  
+	* add expriences
 * projects page 
 	* ~~top layer wallpaper~~  
+	* add projects
 * other
-
+	* ~~set fix backgound image~~
