@@ -14,7 +14,9 @@
 * [Clipping Magic](https://clippingmagic.com/): instantly remove image backgrounds online
 
 #### RESOURCES
-* [Lorem Picsum](https://picsum.photos/): photos  
+
+* [Ionicons](https://github.com/ionic-team/ionicons): classic icons
+* [Icons8](https://icons8.com/icon/set/nav-bar/all): innovative icons
 * [Pexels](https://www.pexels.com/): photos  
 
 #### INSPIRATION
@@ -24,8 +26,8 @@
 
 #### TO DO LIST
 * main page basic & fixed navigation bar 
-	* redesign navigation bar
-	* ~~design and replace main page background photo~~    
+	* ~~redesign navigation bar~~
+	* design and replace main page background photo(make it lighter)    
 * cover page
 	* ~~profile photo~~
 	* contact icons
