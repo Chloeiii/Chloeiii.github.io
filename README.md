@@ -33,7 +33,7 @@
 	* ~~wallpaper~~
 	* redesign portfolio card
 * resume page
-	* reset wallpaper  
+	* ~~reset wallpaper~~  
 	* ~~link resume pdf~~
 * experience page  
 	* ~~wallpaper~~  

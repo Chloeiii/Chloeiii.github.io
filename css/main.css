@@ -107,8 +107,8 @@ li a:hover:not(.active) {
 .resumepage{
   z-index: 97;
   background-image: url("../img/draw.jpg");
-  background-size: 100% 110%;
-  position: relative;
+  background-position: center; 
+  background-repeat: repeat;
 }
 
 .resumepage img{
@@ -131,23 +131,19 @@ li a:hover:not(.active) {
 
 
 /*------------------------------------------experience page------------------------------------*/
-.experiencepage img{
-  display: block;
-  margin: auto;
-  height: auto;
-  max-height: 100%;
-  width: auto;
-  max-width: 100%;
-  background-color: rgba(235, 245, 251, 0.5);
+.experiencepage{
+  z-index: 97;
+  background-image: url("../img/bus.png");
+  background-color: rgba(235, 245, 251, 0.4);
+  background-position: center;
+  background-repeat: repeat;
 }
 
 /*--------------------------------------------project page--------------------------------------*/
-.projectspage img{
-  display: block;
-  margin: auto;
-  height: auto;
-  max-height: 100%;
-  width: auto;
-  max-width: 100%;
-  background-color: rgba(209, 242, 235, 0.5);
+.projectspage{
+  z-index: 97;
+  background-image: url("../img/grass.png");
+  background-color: rgba(235, 245, 251, 0.4);
+  background-position: center;
+  background-repeat: repeat;
 }
