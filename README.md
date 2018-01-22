@@ -27,19 +27,19 @@
 #### TO DO LIST
 * main page basic & fixed navigation bar 
 	* ~~redesign navigation bar~~
-	* design and replace main page background photo(make it lighter)    
+	* ~~design and replace main page background photo~~    
 * cover page
 	* ~~profile photo~~
-	* contact icons
-	* ~~top layer wallpaper~~
+	* ~~wallpaper~~
+	* redesign portfolio card
 * resume page
-	* ~~redesign resume page~~
-	* ~~top layer wallpaper~~  
+	* reset wallpaper  
+	* ~~link resume pdf~~
 * experience page  
-	* ~~top layer wallpaper~~  
+	* ~~wallpaper~~  
 	* add expriences
 * projects page 
-	* ~~top layer wallpaper~~  
+	* ~~wallpaper~~  
 	* add projects
 * other
-	* ~~set fix backgound image~~
+	* TBD
