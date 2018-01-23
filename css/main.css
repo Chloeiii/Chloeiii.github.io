@@ -133,17 +133,24 @@ li a:hover:not(.active) {
 /*------------------------------------------experience page------------------------------------*/
 .experiencepage{
   z-index: 97;
-  background-image: url("../img/bus.png");
   background-color: rgba(235, 245, 251, 0.4);
+ /* background-image: url("../img/bus.png");
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: repeat;*/
+}
+
+.experiencepage .stickyContainer{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 15%;
 }
 
 /*--------------------------------------------project page--------------------------------------*/
 .projectspage{
   z-index: 97;
-  background-image: url("../img/grass.png");
   background-color: rgba(235, 245, 251, 0.4);
+ /* background-image: url("../img/grass.png");
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: repeat;*/
 }
