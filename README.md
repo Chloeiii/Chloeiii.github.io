@@ -2,23 +2,27 @@
 :girl: :yum: :heartpulse: :stuck_out_tongue_closed_eyes:
 ### click here: https://Chloeiii.github.io/
 ----
+
 #### TUTORIALS
 * [Helpful HMTL+CSS tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)    
 * [HTML tutorial](https://www.w3schools.com/html/html_intro.asp)    
 * [Jquery tutorial](https://www.w3schools.com/JQuery/)    
+---- 
 
 #### TOOLS
 * [ColorPad](http://htmlcolorcodes.com/): html color pad   
 * [Adobe Dreamweaver](http://www.adobe.com/cn/products/dreamweaver/free-trial-download.html): web development tool - $9.9/mon  
 * [Sublime Text 2](https://www.sublimetext.com/2): (text editor - for beginners, free)   
 * [Clipping Magic](https://clippingmagic.com/): instantly remove image backgrounds online
+----
 
 #### RESOURCES
-
+----
 * [Ionicons](https://github.com/ionic-team/ionicons): classic icons  
 * [Icons8](https://icons8.com/icon/set/nav-bar/all): innovative icons  
 * [Pexels](https://www.pexels.com/): photos  
 * [Editor.md](https://pandao.github.io/editor.md/en.html): online markdown editor 
+----
 
 #### INSPIRATION
 * [Awwwards](https://www.awwwards.com/): web design trends   
@@ -49,8 +53,8 @@
 	* TBD
 ----  
 
-#### Notes
-----
+#### NOTES
+
 ###### Text Spacing
 		1. space between lines 		-> 		line-height: 90%
 		2. space between words 		-> 		word-spacing: 30px;
