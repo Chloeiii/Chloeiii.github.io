@@ -63,6 +63,13 @@ li .icon-project{
   background-repeat: no-repeat;
   background-size: 40px 40px;  
 }
+li .icon-contact{
+  z-index: 102;
+  display: block;
+  background-image: url("../img/contact.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;  
+}
 
 /*text*/
 li a {
@@ -145,7 +152,7 @@ li a:hover:not(.active) {
   width: 70%;
   border: 3px solid grey;
 }
-
+/*
 .experiencepage .work1{
   position: absolute;
   display: inline-block;
@@ -176,12 +183,59 @@ li a:hover:not(.active) {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+*/
 /*--------------------------------------------project page--------------------------------------*/
 .projectspage{
   z-index: 97;
-  background-color: rgba(235, 245, 251, 0.4);
+  background-color: rgba(227, 230, 234, 0.4);
  /* background-image: url("../img/grass.png");
   background-position: center;
   background-repeat: repeat;*/
+}
+
+/*--------------------------------------------contact page--------------------------------------*/
+.contactpage{
+  z-index: 97;
+/*  background-color: rgba(235, 245, 251, 0.4);
+  background-image: url("../img/grass.png");
+  background-position: center;
+  background-repeat: repeat;*/
+  background-color: rgba(224, 209, 178, 0.7);
+}
+
+.contactpage .contacts{
+  margin:0 auto;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+  /*background-color: black;*/
+}
+
+p{
+  font-size: 120%;
+  font-family: cursive;
+  padding-left: 15px;
+  margin-left: 20px;
+  display: inline;
+}
+
+.contact1{
+  /*display: inline-block;*/
+  position: absolute;
+  display: inline-block;
+  left: 23%;
+  top: 37%;
+}
+.contact2{
+  position: absolute;
+  display: inline-block;
+  left: 23%;
+  top: 42%;
+}
+
+.contact3{
+  position: absolute;
+  display: inline-block;
+  left: 23%;
+  top: 47%;
 }

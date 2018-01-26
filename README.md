@@ -41,5 +41,8 @@
 * projects page 
 	* ~~wallpaper~~  
 	* add projects
+* contact page
+	* wallpaper
+	* email, phone number
 * other
 	* TBD
