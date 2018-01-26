@@ -15,9 +15,10 @@
 
 #### RESOURCES
 
-* [Ionicons](https://github.com/ionic-team/ionicons): classic icons
-* [Icons8](https://icons8.com/icon/set/nav-bar/all): innovative icons
+* [Ionicons](https://github.com/ionic-team/ionicons): classic icons  
+* [Icons8](https://icons8.com/icon/set/nav-bar/all): innovative icons  
 * [Pexels](https://www.pexels.com/): photos  
+* [Editor.md](https://pandao.github.io/editor.md/en.html): online markdown editor 
 
 #### INSPIRATION
 * [Awwwards](https://www.awwwards.com/): web design trends   
@@ -46,3 +47,12 @@
 	* email, phone number
 * other
 	* TBD
+----  
+
+#### Notes
+----
+###### Text Spacing
+		1. space between lines 		-> 		line-height: 90%
+		2. space between words 		-> 		word-spacing: 30px;
+		3. space between letters 	-> 		letter-spacing: 2px;
+
