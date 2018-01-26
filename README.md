@@ -17,7 +17,6 @@
 ----
 
 #### RESOURCES
-----
 * [Ionicons](https://github.com/ionic-team/ionicons): classic icons  
 * [Icons8](https://icons8.com/icon/set/nav-bar/all): innovative icons  
 * [Pexels](https://www.pexels.com/): photos  
@@ -55,7 +54,7 @@
 
 #### NOTES
 
-###### Text Spacing
+##### Text Spacing
 		1. space between lines 		-> 		line-height: 90%
 		2. space between words 		-> 		word-spacing: 30px;
 		3. space between letters 	-> 		letter-spacing: 2px;
