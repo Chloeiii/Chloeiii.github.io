@@ -34,20 +34,20 @@
 	* ~~design and replace main page background photo~~    
 * cover page
 	* ~~profile photo~~
-	* ~~wallpaper~~
-	* redesign portfolio card
+	* wallpaper
+	* ~~redesign portfolio card~~
 * resume page
 	* ~~reset wallpaper~~  
 	* ~~link resume pdf~~
 * experience page  
-	* ~~wallpaper~~  
+	* wallpaper
 	* add expriences
 * projects page 
-	* ~~wallpaper~~  
+	* wallpaper
 	* add projects
 * contact page
 	* wallpaper
-	* email, phone number
+	* ~~email, phone number~~
 * other
 	* TBD
 ----  

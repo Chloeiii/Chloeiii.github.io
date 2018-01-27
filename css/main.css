@@ -177,7 +177,7 @@ li a:hover:not(.active) {
 .experiencepage{
   z-index: 97;
   background-color: rgba(250, 219, 216, 0.4);
- /* background-image: url("../img/bus.png");
+/*  background-image: url("../img/background5.jpg");
   background-position: center;
   background-repeat: repeat;*/
 }
@@ -248,17 +248,17 @@ li a:hover:not(.active) {
 }
 
 .contacttext{
-  font-size: 120%;
+  font-size: 100%;
   font-family: cursive;
   padding-left: 15px;
   margin-left: 20px;
   display: inline;
 }
-/*
-p:hover {
-  font-size: 125%;
+
+.contacttext:hover {
+  font-size: 105%;
 }
-*/
+
 .contact1{
   /*display: inline-block;*/
   position: absolute;
