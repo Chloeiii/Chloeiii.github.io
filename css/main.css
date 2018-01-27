@@ -140,6 +140,12 @@ li a:hover:not(.active) {
   word-spacing:2px;
   line-height: 140%
 }
+.abouticon{
+  position: absolute;
+  display: inline-block;
+  margin-left: 65%;
+  margin-top: 35%;
+}
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
   z-index: 97;
@@ -170,7 +176,7 @@ li a:hover:not(.active) {
 /*------------------------------------------experience page------------------------------------*/
 .experiencepage{
   z-index: 97;
-  background-color: rgba(235, 245, 251, 0.4);
+  background-color: rgba(250, 219, 216, 0.4);
  /* background-image: url("../img/bus.png");
   background-position: center;
   background-repeat: repeat;*/
@@ -180,7 +186,7 @@ li a:hover:not(.active) {
   position: relative;
   margin: auto;
   width: 70%;
-  border: 3px solid grey;
+  /*border: 3px solid grey;*/
 }
 /*
 .experiencepage .work1{
