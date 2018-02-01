@@ -14,6 +14,7 @@
 * [Adobe Dreamweaver](http://www.adobe.com/cn/products/dreamweaver/free-trial-download.html): web development tool - $9.9/mon  
 * [Sublime Text 2](https://www.sublimetext.com/2): (text editor - for beginners, free)   
 * [Clipping Magic](https://clippingmagic.com/): instantly remove image backgrounds online
+* [Online Markdown Editor](https://stackedit.io/app)
 ----
 
 #### RESOURCES
