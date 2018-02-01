@@ -11,7 +11,7 @@ div {
 /*background image*/
 body {	
   /*background-image:  url('../img/background5.jpg');*/
-  background-color: white;
+  background-color: #F5E8E7;
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -99,21 +99,6 @@ li a:hover:not(.active) {
 }
 
 /*----------------------------------------about page---------------------------------------*/
-/*TODO!*/
-/*.aboutpage img{
-  display: none;
-  width:200;
-  height:200px;
-  margin-top: 5%; 
-  padding: 5% 35% 20% 35%; 
-  background-color:white;
-  background-size:50% 60%;
-  background-repeat:no-repeat;
-  border-style: solid;
-  border-width: 30px 30px;
-  border-color: rgb(81, 90, 90);
-}
-*/
 .aboutcenter{
   /*z-index: 9999;*/
   margin: 0 auto;
@@ -122,6 +107,8 @@ li a:hover:not(.active) {
   width: 1000px;
   height: 600px;
   top:15%;
+  border: 5px solid #B3675D;
+  border-style: dashed;
 }
 .aboutimg{
   position: absolute;
@@ -145,7 +132,9 @@ li a:hover:not(.active) {
 }
 .aboutword{
   font-size: 1.1em;
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  /*font-family: cursive;*/
+  font-family: sans-serif;
   word-spacing:2px;
   line-height: 140%
 }
@@ -166,11 +155,20 @@ li a:hover:not(.active) {
   background-repeat: repeat;
 }
 
+.resumediv{
+  margin: 0 auto;
+  position: relative;
+  width: 500px;
+  height: 600px;
+  top:15%;
+}
+
 .resumepage img{
   z-index: 98;
-  position: relative;
+  position: absolute;
   display: inline-block;
-  margin: 10% 35%;
+  top:10%;
+  left: 10%;
   width:400px;
   height:500px;
   opacity: 0.5;
@@ -178,8 +176,8 @@ li a:hover:not(.active) {
 
 .resumepage img:hover {
   opacity:1;
-  top:-15px;
-  left:-15px;
+  top:+30px;
+  left:+35px;
   width:430px;
   height:auto;
 }
@@ -188,37 +186,41 @@ li a:hover:not(.active) {
 /*------------------------------------------experience page------------------------------------*/
 .experiencepage{
   z-index: 97;
-  background-color: rgba(250, 219, 216, 0.4);
+  background-color: #FADBD8;
 /*  background-image: url("../img/background5.jpg");
   background-position: center;
   background-repeat: repeat;*/
+  font-family: sans-serif;
 }
 
-/*
 .experiencepage .work1{
-  position: absolute;
-  display: inline-block;
+  position: relative;
   text-align: center;
-  width: 30%;
-  height: 50%;
-  left: 15%;
-  top: 15%;
-  border: 3px solid white;
-  border-style: double;
+  width: 700px;
+  height: 220px;
+  top: 16%;
+  margin:0 auto;
+  border: 7px solid white;
+  border-style: dashed double;
+  background-color: #E3C9C6;
+  padding-top: 20px;
 }
 .experiencepage .work2{
-  position: absolute;
-  display: inline-block;
+  position: relative;
   text-align: center;
-  width: 30%;
-  height: 50%;
-  left: 55%;
-  top: 15%;
-  border: 3px solid white;
+  width: 700px;
+  height: 220px;
+  top: 20%;
+  margin:0 auto;
+  border: 4px solid white;
   border-style: double;
+  padding-top: 20px;
 }
 
-.experiencepage .workdata{
+lable{
+  text-align: right;
+}
+/*.experiencepage .workdata{
   position: relative;
   display: inline-block;
   top: 50%;
@@ -229,28 +231,25 @@ li a:hover:not(.active) {
 /*--------------------------------------------project page--------------------------------------*/
 .projectspage{
   z-index: 97;
-  background-color: rgba(227, 230, 234, 0.4);
- /* background-image: url("../img/grass.png");
+  background-color: #FADBD8;
+  background-image: url("../img/background5.jpg");
   background-position: center;
-  background-repeat: repeat;*/
+  background-repeat: repeat;
 }
 
 /*--------------------------------------------contact page--------------------------------------*/
 .contactpage{
   z-index: 97;
-/*  background-color: rgba(235, 245, 251, 0.4);
-  background-image: url("../img/grass.png");
-  background-position: center;
-  background-repeat: repeat;*/
-  background-color: rgba(224, 209, 178, 0.7);
+  background-color: #FADBD8;
 }
 
 .contactpage .contacts{
-  margin:0 auto;
-  max-width: 600px;
-  width: 100%;
   position: relative;
   /*background-color: pink;*/
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  top:25%;
 }
 
 .contacttext{
@@ -268,27 +267,30 @@ li a:hover:not(.active) {
 .contact1{
   position: absolute;
   display: inline-block;
-  width: 40%;
-  height: 25%;
+  width: 70%;
+  height: 10%;
   left: 23%;
-  top: 37%;
+  top: 20%;
   /*background-color: yellow;*/
 }
 
 .contact2{
   position: absolute;
   display: inline-block;
-  width: 40%;
-  height: 25%;
+  width: 70%;
+  height: 10%;
   left: 23%;
-  top: 42%;
+  top: 35%;
 }
 
 .contact3{
   position: absolute;
   display: inline-block;
-  width: 40%;
-  height: 25%;
+  width: 70%;
+  height: 10%;
   left: 23%;
-  top: 47%;
+  top: 50%;
+}
+a {
+    color: #716564;
 }

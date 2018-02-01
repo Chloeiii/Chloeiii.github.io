@@ -31,24 +31,24 @@
 
 #### TO DO LIST
 * main page basic & fixed navigation bar 
-	* ~~redesign navigation bar~~
-	* ~~design and replace main page background photo~~    
+	- [x] redesign navigation bar
+	- [ ] design and replace main page background photo    
 * cover page
-	* ~~profile photo~~
-	* wallpaper
-	* ~~redesign portfolio card~~
+	- [x] profile photo
+	- [ ] wallpaper
+	- [x] redesign portfolio card
 * resume page
-	* ~~reset wallpaper~~  
-	* ~~link resume pdf~~
+	- [x] reset wallpaper  
+	- [x] link resume pdf
 * experience page  
-	* wallpaper
-	* add expriences
+	- [ ] wallpaper
+	- [x] add expriences
 * projects page 
-	* wallpaper
-	* add projects
+	- [ ] wallpaper
+	- [ ] add projects
 * contact page
-	* wallpaper
-	* ~~email, phone number~~
+	- [ ] wallpaper
+	- [x] email, phone number
 * other
 	* TBD
 ----  
@@ -59,4 +59,7 @@
 		1. space between lines 		-> 		line-height: 90%
 		2. space between words 		-> 		word-spacing: 30px;
 		3. space between letters 	-> 		letter-spacing: 2px;
+
+		4. <span> tag				->		The <span> tag is used to group inline-elements in a document.
+											e.g. <p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
