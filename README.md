@@ -60,6 +60,7 @@
 		2. space between words 		-> 		word-spacing: 30px;
 		3. space between letters 	-> 		letter-spacing: 2px;
 
-		4. <span> tag				->		The <span> tag is used to group inline-elements in a document.
-											e.g. <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+		4. <span> tag:
+			The <span> tag is used to group inline-elements in a document.
+			<p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
