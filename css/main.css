@@ -27,6 +27,8 @@ ul {
   padding: 0;
   margin: 0;
   width: 150px;
+  margin-top: 120px;
+  /*background-color: black;*/
 }
 
 /*text list on navigation bar*/
@@ -113,19 +115,21 @@ li a:hover:not(.active) {
 }
 */
 .aboutcenter{
+  /*z-index: 9999;*/
   margin: 0 auto;
   position: relative;
-  background-color: black; 
-  width: 50%;
-  height: 50%;
+  background-color: #FADBD8; 
+  width: 1000px;
+  height: 600px;
+  top:15%;
 }
 .aboutimg{
   position: absolute;
   display: inline-block;
-  width: 300px;
+  width: 30%;
   height: auto;
-  margin-left: 25%;
-  margin-top: 8%;
+  margin-left: 15%;
+  margin-top: 6%;
 }
 .aboutimg img{
   width: 100%;
@@ -134,10 +138,10 @@ li a:hover:not(.active) {
 .abouttext{
   position: absolute;
   display: inline-block;
-  width: 390px;
+  width: 30%;
   height: auto;
   margin-left: 50%;
-  margin-top: 14%;
+  margin-top: 10%;
 }
 .aboutword{
   font-size: 1.1em;
@@ -148,10 +152,11 @@ li a:hover:not(.active) {
 .abouticon{
   position: absolute;
   display: inline-block;
-  width: 8%;
+  width: 15%;
   height: 5%;
-  margin-left: 65%;
-  margin-top: 35%;
+  margin-left: 75%;
+  margin-top: 50%;
+  /*background-color: black;*/
 }
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
