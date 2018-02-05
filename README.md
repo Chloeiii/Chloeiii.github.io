@@ -20,6 +20,7 @@
 #### RESOURCES
 * [Ionicons](https://github.com/ionic-team/ionicons): classic icons  
 * [Icons8](https://icons8.com/icon/set/nav-bar/all): innovative icons  
+* [Iconfinder](https://www.iconfinder.com/): sets of icons
 * [Pexels](https://www.pexels.com/): photos  
 * [Editor.md](https://pandao.github.io/editor.md/en.html): online markdown editor 
 ----
@@ -32,22 +33,23 @@
 #### TO DO LIST
 * main page basic & fixed navigation bar 
 	- [x] redesign navigation bar
-	- [ ] design and replace main page background photo    
+	- [x] design and replace main page background photo    
 * cover page
 	- [x] profile photo
-	- [ ] wallpaper
+	- [x] wallpaper
 	- [x] redesign portfolio card
 * resume page
 	- [x] reset wallpaper  
 	- [x] link resume pdf
 * experience page  
-	- [ ] wallpaper
+	- [x] wallpaper
 	- [x] add expriences
+	- [x] company images
 * projects page 
 	- [ ] wallpaper
 	- [ ] add projects
 * contact page
-	- [ ] wallpaper
+	- [x] wallpaper
 	- [x] email, phone number
 * other
 	* TBD

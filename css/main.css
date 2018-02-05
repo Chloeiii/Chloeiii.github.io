@@ -11,8 +11,8 @@ div {
 /*background image*/
 body {	
   /*background-image:  url('../img/background5.jpg');*/
-  background-color: #F5E8E7;
-  background-repeat: repeat;
+  background-image: url("../img/texture.jpg");
+  background-size: cover;
   background-attachment: fixed;
   background-position: center; 
 	margin: 0;
@@ -99,11 +99,16 @@ li a:hover:not(.active) {
 }
 
 /*----------------------------------------about page---------------------------------------*/
+.aboutpage{
+  /*background-image: url("../img/2018.jpeg");*/
+}
+
 .aboutcenter{
   /*z-index: 9999;*/
   margin: 0 auto;
   position: relative;
   background-color: #FADBD8; 
+  opacity: 0.9;
   width: 1000px;
   height: 600px;
   top:15%;
@@ -132,8 +137,6 @@ li a:hover:not(.active) {
 }
 .aboutword{
   font-size: 1.1em;
-  /*font-family: Arial, Helvetica, sans-serif;*/
-  /*font-family: cursive;*/
   font-family: sans-serif;
   word-spacing:2px;
   line-height: 140%
@@ -150,9 +153,14 @@ li a:hover:not(.active) {
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
   z-index: 97;
-  background-image: url("../img/draw.jpg");
+  background-image: url("../img/blue.jpg");
   background-position: center; 
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: black;*/
+}
+.resumebackg{
+  background-color: rgba(238, 214, 228, 0.7);
 }
 
 .resumediv{
@@ -186,48 +194,50 @@ li a:hover:not(.active) {
 /*------------------------------------------experience page------------------------------------*/
 .experiencepage{
   z-index: 97;
-  background-color: #FADBD8;
-/*  background-image: url("../img/background5.jpg");
-  background-position: center;
-  background-repeat: repeat;*/
   font-family: sans-serif;
 }
 
-.experiencepage .work1{
+.exprience{
   position: relative;
+  background-color:rgba(216, 207, 198, 0.8);
+  margin: 0 auto;
+  height: 600px;
+  top:13%;
+}
+
+.experiencepage .work1{
+  /*position: relative;*/
+  position: absolute;
   text-align: center;
-  width: 700px;
-  height: 220px;
-  top: 16%;
-  margin:0 auto;
-  border: 7px solid white;
-  border-style: dashed double;
-  background-color: #E3C9C6;
+  width: 500px;
+  height: 400px;
+  top: 13%;
+  left: 18%;
+  float: left;
   padding-top: 20px;
+  color:black;
+  background-color: rgba(249, 246, 243, 0.8);
+  border-style: double;
+  border-color: white;
+  border-width: 5px;
 }
 .experiencepage .work2{
-  position: relative;
+  /*position: relative;*/
+  position: absolute;
   text-align: center;
-  width: 700px;
-  height: 220px;
-  top: 20%;
-  margin:0 auto;
-  border: 4px solid white;
-  border-style: double;
+  width: 500px;
+  height: 400px;
+  top: 13%;
+  float: right;
+  right: 20%;
   padding-top: 20px;
+  color:black;
+  background-color: rgba(249, 246, 243, 0.2);
 }
 
 lable{
   text-align: right;
 }
-/*.experiencepage .workdata{
-  position: relative;
-  display: inline-block;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-*/
 /*--------------------------------------------project page--------------------------------------*/
 .projectspage{
   z-index: 97;
@@ -241,15 +251,20 @@ lable{
 .contactpage{
   z-index: 97;
   background-color: #FADBD8;
+  background-image: url("../img/phone.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 .contactpage .contacts{
   position: relative;
-  /*background-color: pink;*/
+  /*position: absolute;*/
+  background-color: rgba(253, 237, 236, 0.7);
   margin: 0 auto;
-  width: 500px;
-  height: 300px;
-  top:25%;
+  /*width: 700px;*/
+  /*height: 400px;*/
+  /*top:22%;*/
+  /*left: 47%;*/
 }
 
 .contacttext{
@@ -267,30 +282,29 @@ lable{
 .contact1{
   position: absolute;
   display: inline-block;
-  width: 70%;
-  height: 10%;
-  left: 23%;
-  top: 20%;
-  /*background-color: yellow;*/
+  width: 40%;
+  height: 5%;
+  left: 44%;
+  top: 35%;
 }
 
 .contact2{
   position: absolute;
   display: inline-block;
-  width: 70%;
-  height: 10%;
-  left: 23%;
-  top: 35%;
+  width: 40%;
+  height: 5%;
+  left: 44%;
+  top: 40%;
 }
 
 .contact3{
   position: absolute;
   display: inline-block;
-  width: 70%;
-  height: 10%;
-  left: 23%;
-  top: 50%;
+  width: 40%;
+  height: 5%;
+  left: 44%;
+  top: 45%;
 }
 a {
-    color: #716564;
+    color: black;
 }
