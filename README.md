@@ -41,6 +41,7 @@
 * resume page
 	- [x] reset wallpaper  
 	- [x] link resume pdf
+	- [x] add transition effect on resume image
 * experience page  
 	- [x] wallpaper
 	- [x] add expriences
@@ -52,7 +53,7 @@
 	- [x] wallpaper
 	- [x] email, phone number
 * other
-	* TBD
+	- [ ] js
 ----  
 
 #### NOTES
