@@ -180,6 +180,8 @@ li a:hover:not(.active) {
   width:400px;
   height:500px;
   opacity: 0.5;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
 }
 
 .resumepage img:hover {
@@ -188,8 +190,6 @@ li a:hover:not(.active) {
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
 }
 
 
@@ -208,33 +208,39 @@ li a:hover:not(.active) {
 }
 
 .experiencepage .work1{
-  /*position: relative;*/
   position: absolute;
   text-align: center;
   width: 500px;
-  height: 400px;
+  height: 380px;
   top: 13%;
   left: 18%;
   float: left;
   padding-top: 20px;
   color:black;
-  background-color: rgba(249, 246, 243, 0.8);
-  border-style: double;
-  border-color: white;
-  border-width: 5px;
+  background-color: rgba(249, 246, 243, 0.2);
 }
+.experiencepage .work1:hover{
+  background-color: rgba(249, 246, 243, 0.8);
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+}
+
 .experiencepage .work2{
-  /*position: relative;*/
   position: absolute;
   text-align: center;
   width: 500px;
-  height: 400px;
+  height: 380px;
   top: 13%;
   float: right;
   right: 20%;
   padding-top: 20px;
   color:black;
   background-color: rgba(249, 246, 243, 0.2);
+}
+.experiencepage .work2:hover{
+  background-color: rgba(249, 246, 243, 0.8);
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
 }
 
 lable{
@@ -260,13 +266,8 @@ lable{
 
 .contactpage .contacts{
   position: relative;
-  /*position: absolute;*/
   background-color: rgba(253, 237, 236, 0.7);
   margin: 0 auto;
-  /*width: 700px;*/
-  /*height: 400px;*/
-  /*top:22%;*/
-  /*left: 47%;*/
 }
 
 .contacttext{

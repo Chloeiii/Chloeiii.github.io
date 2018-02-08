@@ -46,6 +46,7 @@
 	- [x] wallpaper
 	- [x] add expriences
 	- [x] company images
+	- [x] add company link and transition effect on experiences 
 * projects page 
 	- [ ] wallpaper
 	- [ ] add projects
@@ -67,3 +68,5 @@
 			The <span> tag is used to group inline-elements in a document.
 			<p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
+##### Browser Support for Transitions
+<img src="http://slideplayer.com/3827203/13/images/51/Browser+Support+Numbers+followed+by+-webkit-%2C+-moz-%2C+or+-o-+specify+the+first+version+that+worked+with+a+prefix..jpg" width="800">
