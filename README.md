@@ -48,13 +48,14 @@
 	- [x] company images
 	- [x] add company link and transition effect on experiences 
 * projects page 
-	- [ ] wallpaper
-	- [ ] add projects
+	- [ ] add tags for each project
+	- [x] add projects
 * contact page
 	- [x] wallpaper
 	- [x] email, phone number
+	- [ ] redesign contact card and hover effect
 * other
-	- [ ] js
+	- [ ] add some js effects to the site
 ----  
 
 #### NOTES

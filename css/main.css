@@ -271,10 +271,10 @@ lable{
 
 .pj1{
   position: absolute;
-  height: 200px;
-  width: 200px;
-  left: 200px;
-  top: 100px;
+  height: 170px;
+  width: 170px;
+  left: 250px;
+  top: 40px;
   opacity: 0.7;
   content:url("../img/flappybird.png");
 }
@@ -285,52 +285,63 @@ lable{
 
 .pj2{
   position: absolute;
-  background-color: white;
-  height: 200px;
-  width: 200px;
-  left: 600px;
-  top: 100px;
+  background-color: #D6EAF8;
+  height: 170px;
+  width: 170px;
+  left: 615px;
+  top: 40px;
+  opacity: 0.7;
+  content:url("../img/R.png");
 }
+.pj2:hover{opacity: 1;}
 
 .pj3{
   position: absolute;
-  background-color: black;
-  height: 200px;
-  width: 200px;
-  right: 200px;
-  top: 100px;
-  opacity: 0.3;
+  background-color: grey;
+  height: 170px;
+  width: 170px;
+  right: 250px;
+  top: 40px;
+  opacity: 0.7;
+  content:url("../img/maze.png");
 }
-.pj3:hover{opacity: 0.5;}
+.pj3:hover{opacity: 1;}
 
 .pj4{
   position: absolute;
   background-color: white;
-  height: 200px;
-  width: 200px;
-  left: 200px;
-  bottom: 100px;
+  height: 170px;
+  width: 170px;
+  left: 250px;
+  bottom: 160px;
+  opacity: 0.7;
+  content:url("../img/flow.png");
 }
+.pj4:hover{opacity: 1;}
 
 .pj5{
   position: absolute;
-  background-color: black;
-  height: 200px;
-  width: 200px;
-  left: 600px;
-  bottom: 100px;
-  opacity: 0.3;
+  background-color: yellow;
+  height: 170px;
+  width: 170px;
+  left: 615px;
+  bottom: 160px;
+  opacity: 0.7;
+  content:url("../img/sudoku.png");
 }
-.pj5:hover{opacity: 0.5;}
+.pj5:hover{opacity: 1;}
 
 .pj6{
   position: absolute;
   background-color: white;
-  height: 200px;
-  width: 200px;
-  right: 200px;
-  bottom: 100px;
+  height: 170px;
+  width: 170px;
+  right: 250px;
+  bottom: 160px;
+  opacity: 0.7;
+  content:url("../img/makeup.png");
 }
+.pj6:hover{opacity: 1;}
 
 /*--------------------------------------------contact page--------------------------------------*/
 .contactpage{
