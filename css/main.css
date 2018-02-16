@@ -255,6 +255,83 @@ lable{
   background-repeat: repeat;
 }
 
+.projects{
+  position: relative;
+  background-color: rgba(253, 237, 236, 0.6);
+  margin: 0 auto;
+  height: 700px;
+  width: 1400px;
+  top:10%;
+}
+
+.circleBase{
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* IE8 */  
+}
+
+.pj1{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 200px;
+  top: 100px;
+  opacity: 0.7;
+  content:url("../img/flappybird.png");
+}
+/*.pj1dis{
+  display: none;
+}*/
+.pj1:hover{opacity: 1;}
+
+.pj2{
+  position: absolute;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  left: 600px;
+  top: 100px;
+}
+
+.pj3{
+  position: absolute;
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  right: 200px;
+  top: 100px;
+  opacity: 0.3;
+}
+.pj3:hover{opacity: 0.5;}
+
+.pj4{
+  position: absolute;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  left: 200px;
+  bottom: 100px;
+}
+
+.pj5{
+  position: absolute;
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  left: 600px;
+  bottom: 100px;
+  opacity: 0.3;
+}
+.pj5:hover{opacity: 0.5;}
+
+.pj6{
+  position: absolute;
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  right: 200px;
+  bottom: 100px;
+}
+
 /*--------------------------------------------contact page--------------------------------------*/
 .contactpage{
   z-index: 97;
