@@ -203,8 +203,8 @@ li a:hover:not(.active) {
   position: relative;
   background-color:rgba(216, 207, 198, 0.8);
   margin: 0 auto;
-  height: 600px;
-  top:13%;
+  height: 700px;
+  top:10%;
 }
 
 .experiencepage .work1{
@@ -212,7 +212,7 @@ li a:hover:not(.active) {
   text-align: center;
   width: 500px;
   height: 380px;
-  top: 13%;
+  top: 18%;
   left: 18%;
   float: left;
   padding-top: 20px;
@@ -230,7 +230,7 @@ li a:hover:not(.active) {
   text-align: center;
   width: 500px;
   height: 380px;
-  top: 13%;
+  top: 18%;
   float: right;
   right: 20%;
   padding-top: 20px;

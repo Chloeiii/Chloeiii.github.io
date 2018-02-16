@@ -15,14 +15,15 @@
 * [Sublime Text 2](https://www.sublimetext.com/2): (text editor - for beginners, free)   
 * [Clipping Magic](https://clippingmagic.com/): instantly remove image backgrounds online
 * [Online Markdown Editor](https://stackedit.io/app)
+* [Emoji cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+* [JSFiddle](https://jsfiddle.net/): a website where you can test out some JavaScript code snippets you have, before you add them to your project.
 ----
 
 #### RESOURCES
 * [Ionicons](https://github.com/ionic-team/ionicons): classic icons  
 * [Icons8](https://icons8.com/icon/set/nav-bar/all): innovative icons  
 * [Iconfinder](https://www.iconfinder.com/): sets of icons
-* [Pexels](https://www.pexels.com/): photos  
-* [Editor.md](https://pandao.github.io/editor.md/en.html): online markdown editor 
+* [Pexels](https://www.pexels.com/): photos
 ----
 
 #### INSPIRATION
