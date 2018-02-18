@@ -109,19 +109,19 @@ li a:hover:not(.active) {
   position: relative;
   background-color: #FADBD8; 
   opacity: 0.9;
-  width: 1000px;
-  height: 600px;
-  top:15%;
+  width: 1400px;
+  height: 700px;
+  top:10%;
   border: 5px solid #B3675D;
   border-style: dashed;
 }
 .aboutimg{
   position: absolute;
   display: inline-block;
-  width: 30%;
+  width: 24%;
   height: auto;
-  margin-left: 15%;
-  margin-top: 6%;
+  margin-left: 20%;
+  margin-top: 3%;
 }
 .aboutimg img{
   width: 100%;
@@ -130,13 +130,13 @@ li a:hover:not(.active) {
 .abouttext{
   position: absolute;
   display: inline-block;
-  width: 30%;
+  width: 25%;
   height: auto;
   margin-left: 50%;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 .aboutword{
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-family: sans-serif;
   word-spacing:2px;
   line-height: 140%
@@ -146,8 +146,8 @@ li a:hover:not(.active) {
   display: inline-block;
   width: 15%;
   height: 5%;
-  margin-left: 75%;
-  margin-top: 50%;
+  margin-left: 70%;
+  margin-top: 40%;
   /*background-color: black;*/
 }
 /*-----------------------------------------resume page--------------------------------------*/
@@ -211,7 +211,7 @@ li a:hover:not(.active) {
   position: absolute;
   text-align: center;
   width: 500px;
-  height: 380px;
+  height: 400px;
   top: 18%;
   left: 18%;
   float: left;
@@ -229,7 +229,7 @@ li a:hover:not(.active) {
   position: absolute;
   text-align: center;
   width: 500px;
-  height: 380px;
+  height: 400px;
   top: 18%;
   float: right;
   right: 20%;
@@ -347,7 +347,7 @@ lable{
 .contactpage{
   z-index: 97;
   background-color: #FADBD8;
-  background-image: url("../img/phone.jpg");
+  background-image: url("../img/clouds.jpeg");
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -356,6 +356,9 @@ lable{
   position: relative;
   background-color: rgba(253, 237, 236, 0.7);
   margin: 0 auto;
+  height: 700px;
+  width: 1400px;
+  top:10%;
 }
 
 .contacttext{
