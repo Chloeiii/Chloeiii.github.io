@@ -269,6 +269,19 @@ lable{
   behavior: url(PIE.htc); /* IE8 */  
 }
 
+.invisible{
+  display: none;
+  background-color: #117A65;
+  padding: 5px;
+  width: 80px;
+  height: 18px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+}
+
 .pj1{
   position: absolute;
   height: 170px;
@@ -276,12 +289,16 @@ lable{
   left: 250px;
   top: 40px;
   opacity: 0.7;
-  content:url("../img/flappybird.png");
+  background-image:url("../img/flappybird.png");
+  background-size: 100%;
 }
-/*.pj1dis{
-  display: none;
-}*/
-.pj1:hover{opacity: 1;}
+.pj1:hover .invisible{
+  display:block;
+}
+.pj1:hover{
+  opacity: 1;
+}
+
 
 .pj2{
   position: absolute;
@@ -291,7 +308,11 @@ lable{
   left: 615px;
   top: 40px;
   opacity: 0.7;
-  content:url("../img/R.png");
+  background-image:url("../img/R.png");
+  background-size: 100%;
+}
+.pj2:hover .invisible{
+  display:block;
 }
 .pj2:hover{opacity: 1;}
 
@@ -303,7 +324,11 @@ lable{
   right: 250px;
   top: 40px;
   opacity: 0.7;
-  content:url("../img/maze.png");
+  background-image:url("../img/maze.png");
+  background-size: 100%;
+}
+.pj3:hover .invisible{
+  display:block;
 }
 .pj3:hover{opacity: 1;}
 
@@ -315,7 +340,11 @@ lable{
   left: 250px;
   bottom: 160px;
   opacity: 0.7;
-  content:url("../img/flow.png");
+  background-image:url("../img/flow.png");
+  background-size: 100%;
+}
+.pj4:hover .invisible{
+  display:block;
 }
 .pj4:hover{opacity: 1;}
 
@@ -327,7 +356,11 @@ lable{
   left: 615px;
   bottom: 160px;
   opacity: 0.7;
-  content:url("../img/sudoku.png");
+  background-image:url("../img/sudoku.png");
+  background-size: 100%;
+}
+.pj5:hover .invisible{
+  display:block;
 }
 .pj5:hover{opacity: 1;}
 
@@ -339,7 +372,11 @@ lable{
   right: 250px;
   bottom: 160px;
   opacity: 0.7;
-  content:url("../img/makeup.png");
+  background-image:url("../img/makeup.png");
+  background-size: 100%;
+}
+.pj6:hover .invisible{
+  display:block;
 }
 .pj6:hover{opacity: 1;}
 

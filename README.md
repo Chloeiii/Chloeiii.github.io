@@ -49,7 +49,7 @@
 	- [x] company images
 	- [x] add company link and transition effect on experiences 
 * projects page 
-	- [ ] add tags for each project
+	- [x] add tags for each project
 	- [x] add projects
 * contact page
 	- [x] wallpaper
@@ -90,3 +90,14 @@
 			
 			Refresh document every 30 seconds:
 			<meta http-equiv="refresh" content="30">
+
+##### Hover to show a div
+		div {
+		    display: none;
+		}
+		    
+		a:hover + div {
+		    display: block;
+		}
+		<a>Hover over me!</a>
+		<div>Stuff shown on hover</div>
