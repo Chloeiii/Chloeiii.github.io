@@ -1,4 +1,4 @@
-# HeyChloe
+# Chloe
 :girl: :yum: :heartpulse: :stuck_out_tongue_closed_eyes:
 ### click here: https://Chloeiii.github.io/
 ----
@@ -7,6 +7,9 @@
 * [Helpful HMTL+CSS tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)    
 * [HTML tutorial](https://www.w3schools.com/html/html_intro.asp)    
 * [Jquery tutorial](https://www.w3schools.com/JQuery/)    
+* [Angular JS Tutorial](https://www.w3schools.com/angular/default.asp): AngularJS is a JavaScript-based open-source front-end web application framework in developing single-page applications.
+* [Node JS Tutorial](https://www.w3schools.com/nodejs/default.asp)
+* [React JS Tutorial](https://www.tutorialspoint.com/reactjs/index.htm)
 ---- 
 
 #### TOOLS
@@ -62,6 +65,8 @@
 ----  
 
 #### NOTES
+##### Differences between jQuery vs. AngularJS vs. Node.js
+* https://stackoverflow.com/a/41234299
 
 ##### Text Spacing
 		1. space between lines 		-> 		line-height: 90%
@@ -103,3 +108,4 @@
 		}
 		<a>Hover over me!</a>
 		<div>Stuff shown on hover</div>
+
