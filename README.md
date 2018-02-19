@@ -56,6 +56,8 @@
 	- [x] email, phone number
 	- [ ] redesign contact card and hover effect
 * other
+	- [ ] reformat css file
+	- [ ] adjust div to fit other screen sizes
 	- [ ] add some js effects to the site
 ----  
 

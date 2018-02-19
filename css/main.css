@@ -21,76 +21,45 @@ body {
 
 /*-----------------------------------navigation bar----------------------------------*/
 ul {
-  z-index: 100;
+  z-index: 10000;
   position: fixed;
   list-style-type: none; /*remove the markers/bullets*/
   padding: 0;
   margin: 0;
-  width: 150px;
+  width: 90px;
   margin-top: 120px;
-  /*background-color: black;*/
+  margin-left: 30px;
 }
 
-/*text list on navigation bar*/
-li {
-  font-family: cursive;
-  padding-left: 20px;
-  margin-left: 45px;
-}
-
-/*icons on navigation bar*/
-li .icon-about{
+li .icons{/*icons on navigation bar*/
   z-index: 102;
   display: block;
-  background-image: url("../img/amelie.png");
   background-repeat: no-repeat;
   background-size: 40px 40px;
+  background-position: center top;  
+  font-size: 3em;
+
 }
-li .icon-resume{
-  z-index: 102;
-  display: block;
-  background-image: url("../img/resume.png");
-  background-repeat: no-repeat;
-  background-size: 40px 40px;  
-}
-li .icon-bookmark{
-  z-index: 102;
-  display: block;
-  background-image: url("../img/bookmark.png");
-  background-repeat: no-repeat;
-  background-size: 40px 40px;  
-}
-li .icon-project{
-  z-index: 102;
-  display: block;
-  background-image: url("../img/project.png");
-  background-repeat: no-repeat;
-  background-size: 40px 40px;  
-}
-li .icon-contact{
-  z-index: 102;
-  display: block;
-  background-image: url("../img/contact.png");
-  background-repeat: no-repeat;
-  background-size: 40px 40px;  
-}
+li .amelie{background-image: url("../img/amelie.png");}
+li .resume{background-image: url("../img/resume.png");}
+li .bookmark{background-image: url("../img/bookmark.png");}
+li .project{background-image: url("../img/project.png"); }
+li .contact{background-image: url("../img/contact.png");}
 
 /*text*/
 li a {
   display: block;
   z-index: 101;
+  margin-top: 25px;
+  padding-top: 50px;
   font-size: 12px;
+  font-style: normal;
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  margin-top: 25px;
-  padding-top: 50px;
-}
-
-
-li a.active {
-    background-color: rgba(241, 215, 185, 0.2);
-    color: white;
+  text-align: center;
+  font-family: cursive;
+  text-decoration: none;/* remove underline from link*/
 }
 
 li a:hover:not(.active) {
@@ -99,10 +68,6 @@ li a:hover:not(.active) {
 }
 
 /*----------------------------------------about page---------------------------------------*/
-.aboutpage{
-  /*background-image: url("../img/2018.jpeg");*/
-}
-
 .aboutcenter{
   /*z-index: 9999;*/
   margin: 0 auto;
@@ -144,11 +109,19 @@ li a:hover:not(.active) {
 .abouticon{
   position: absolute;
   display: inline-block;
-  width: 15%;
-  height: 5%;
+  width: 11%;
+  height: 4%;
   margin-left: 70%;
   margin-top: 40%;
-  /*background-color: black;*/
+}
+
+.abouticon a{
+  padding-left: 20px; 
+  font-size: 1.5em;
+  opacity: 0.7;
+}
+.abouticon a:hover{
+  opacity: 1;
 }
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
@@ -243,9 +216,6 @@ li a:hover:not(.active) {
   -webkit-transition: all 0.7s;
 }
 
-lable{
-  text-align: right;
-}
 /*--------------------------------------------project page--------------------------------------*/
 .projectspage{
   z-index: 97;
