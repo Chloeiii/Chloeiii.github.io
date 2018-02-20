@@ -78,7 +78,7 @@
 			<p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
 ##### Browser Support for Transitions
-<img src="http://slideplayer.com/3827203/13/images/51/Browser+Support+Numbers+followed+by+-webkit-%2C+-moz-%2C+or+-o-+specify+the+first+version+that+worked+with+a+prefix..jpg" width="800">
+<img src="http://designshack.co.uk/wp-content/uploads/photoswap-3.jpg" width="700">
 
 ##### meta element
 		the <meta> element is used to specify which character set is used, page description, keywords, author, and other metadata.
