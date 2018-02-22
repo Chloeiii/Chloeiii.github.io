@@ -20,6 +20,7 @@
 * [Online Markdown Editor](https://stackedit.io/app)
 * [Emoji cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 * [JSFiddle](https://jsfiddle.net/): a website where you can test out some JavaScript code snippets you have, before you add them to your project.
+* [LunaPic](https://www194.lunapic.com/editor/): free online photo editor
 ----
 
 #### RESOURCES
@@ -57,7 +58,7 @@
 * contact page
 	- [x] wallpaper
 	- [x] email, phone number
-	- [ ] redesign contact card and hover effect
+	- [x] redesign contact card and hover effect
 * other
 	- [ ] reformat css file
 	- [ ] adjust div to fit other screen sizes
