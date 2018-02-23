@@ -21,6 +21,7 @@
 * [Emoji cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 * [JSFiddle](https://jsfiddle.net/): a website where you can test out some JavaScript code snippets you have, before you add them to your project.
 * [LunaPic](https://www194.lunapic.com/editor/): free online photo editor
+* [Chrome Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh/related?hl=zh-CN): help testing the site with different screen sizes
 ----
 
 #### RESOURCES
@@ -60,9 +61,10 @@
 	- [x] email, phone number
 	- [x] redesign contact card and hover effect
 * other
-	- [ ] reformat css file
-	- [ ] adjust div to fit other screen sizes
+	- [x] reformat css file
+	- [x] adjust div to fit other screen sizes
 	- [ ] add some js effects to the site
+	- [ ] mobile friendly
 ----  
 
 #### NOTES
