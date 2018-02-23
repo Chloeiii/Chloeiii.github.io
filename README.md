@@ -1,13 +1,6 @@
 # Chloe
 :girl: :yum: :heartpulse: :stuck_out_tongue_closed_eyes:
-### click here: https://Chloeiii.github.io/
-----
-![][screenshot/Capture1.PNG]
-![][screenshot/Capture2.PNG]
-![][screenshot/Capture3.PNG]
-![][screenshot/Capture4.PNG]
-![][screenshot/Capture5.PNG]
-
+### link: https://Chloeiii.github.io/
 ----
 #### TUTORIALS
 * [Helpful HMTL+CSS tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)    
