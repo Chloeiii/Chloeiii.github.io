@@ -56,15 +56,11 @@ li a {
   font-style: normal;
   text-transform: uppercase;
   font-weight: bold;
-  color: black;
+  color: white;
   text-align: center;
   font-family: cursive;
   text-decoration: none;/* remove underline from link*/
-}
-
-li a:hover:not(.active) {
-    background-color: rgba(241, 215, 186, 0.2);
-    color: white;
+  border-radius: 10px;
 }
 
 /*----------------------------------------about page---------------------------------------*/

@@ -3,12 +3,12 @@
 ### link: https://Chloeiii.github.io/
 ----
 #### TUTORIALS
-* [Helpful HMTL+CSS tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)    
-* [HTML tutorial](https://www.w3schools.com/html/html_intro.asp)    
-* [Jquery tutorial](https://www.w3schools.com/JQuery/)    
+* [Helpful HMTL+CSS tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html): Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.    
+* [HTML tutorial](https://www.w3schools.com/html/html_intro.asp): Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.    
+* [Jquery tutorial](https://www.w3schools.com/JQuery/): jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML    
 * [Angular JS Tutorial](https://www.w3schools.com/angular/default.asp): AngularJS is a JavaScript-based open-source front-end web application framework in developing single-page applications.
-* [Node JS Tutorial](https://www.w3schools.com/nodejs/default.asp)
-* [React JS Tutorial](https://www.tutorialspoint.com/reactjs/index.htm)
+* [Node JS Tutorial](https://www.w3schools.com/nodejs/default.asp): Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side.
+* [React JS Tutorial](https://www.tutorialspoint.com/reactjs/index.htm): React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
 ---- 
 
 #### TOOLS
@@ -110,4 +110,10 @@
 		}
 		<a>Hover over me!</a>
 		<div>Stuff shown on hover</div>
+
+##### JQuery Syntax
+		$(this).hide() 		- 	hides the current element.
+		$("p").hide() 		- 	hides all <p> elements.
+		$(".test").hide() 	- 	hides all elements with class="test".
+		$("#test").hide() 	- 	hides the element with id="test".
 
