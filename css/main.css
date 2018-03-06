@@ -122,7 +122,7 @@ li a {
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
   z-index: 97;
-  background-color: #c9d8c5;
+  /*background-color: #c9d8c5;*/
   /*width: 100%;*/
   /*height: 100%;*/
 }
@@ -222,17 +222,12 @@ li a {
   z-index: 97;
   /*background-color: #FADBD8;*/
   /*background-image: url("../img/light2.jpeg");*/
-  background-color: #c9c9c9;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+  /*background-color: #c9c9c9;*/
 }
 
 .projects{
   position: relative;
-  background-color: #c2d4d8;
+  background-color: #ddb8c0;
   margin: 0 auto;
   width: 1200px;
   /*height: 600px;*/
@@ -331,16 +326,12 @@ li a {
 .contactpage{
   z-index: 97;
   /*background-image: url("../img/clouds.jpeg");*/
-  background-color: #c9d8c5;
-  background-repeat:no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+  /*background-color: #c9d8c5;*/
 }
 
 .contactpage .contacts{
   position: relative;
-  background-color: #a8b6bf;
+  background-color: #9caaad;
   /*background-color: black;*/
   margin: 0 auto;
   width: 1200px;
