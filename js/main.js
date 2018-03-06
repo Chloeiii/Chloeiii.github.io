@@ -4,6 +4,6 @@ $(document).ready(function(){
         function(){$(this).css("background-color", "transparent");}
     );
     $("li a").click(
-        function(){$(this).css("color", "pink");}
+        function(){$(this).css("color", "#7d4627");}
     );
 });

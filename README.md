@@ -32,12 +32,14 @@
 
 #### INSPIRATION
 * [Awwwards](https://www.awwwards.com/): web design trends   
-* [One Page Love](https://onepagelove.com/): one page website inspiration  
+* [One Page Love](https://onepagelove.com/): one page website inspiration 
+* [Awwwards](https://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html):trendy web color palettes and material design color schemes tools 
+
 ----
 
 #### TO DO LIST
 * main page basic & fixed navigation bar 
-	- [x] redesign navigation bar
+	- [ ] place navigation bar on the top and add scroll effect
 	- [x] design and replace main page background photo    
 * cover page
 	- [x] profile photo

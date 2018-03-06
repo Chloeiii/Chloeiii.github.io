@@ -9,7 +9,8 @@ div {
 
 /*background image*/
 body {	
-  background-image: url("../img/cloud2.jpeg");
+  /*background-image: url("../img/cloud2.jpeg");*/
+  background-color: #edd9c0;
   background-size: cover;
   background-attachment: fixed;
   background-position: center; 
@@ -64,27 +65,21 @@ li a {
 }
 
 /*----------------------------------------about page---------------------------------------*/
-.aboutpage{
-  background-color: rgba(247, 209, 208, 0.3); 
-}
-
 .aboutcenter{
   margin: 0 auto;
   position: relative;
-  background-color: rgba(212, 210, 210, 0.9); 
+  background-color: #fff; 
   opacity: 1;
   width: 1200px;
-  height: 600px;
-  top:10%;
-  border: 5px solid #2A2929;
-  border-style: groove;
+  height: 800px;
+  top:18%;
 }
 .aboutimg{
   position: absolute;
   display: inline-block;
-  width: 270px;
-  margin-left: 23%;
-  margin-top: 3%;
+  width: 380px;
+  margin-left: 15%;
+  margin-top: 6%;
 }
 .aboutimg img{
   width: 100%;
@@ -93,25 +88,26 @@ li a {
 .abouttext{
   position: absolute;
   display: inline-block;
-  width: 290px;
+  width: 360px;
   height: auto;
-  margin-left: 50%;
-  margin-top: 8%;
+  margin-left: 55%;
+  margin-top: 15%;
   /*background-color: black;*/
 }
 .aboutword{
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: sans-serif;
   word-spacing:2px;
-  line-height: 140%
+  line-height: 140%;
+  color: #7d4627;
 }
 .abouticon{
   position: absolute;
   display: inline-block;
   width: 130px;
   height: 30px;
-  margin-left: 70%;
-  margin-top: 38%;
+  margin-left: 80%;
+  margin-top: 50%;
   /*background-color: white;*/
 }
 
@@ -126,45 +122,48 @@ li a {
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
   z-index: 97;
-  background-image: url("../img/light.jpeg");
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  /*background-color: black;*/
+  background-color: #c9d8c5;
+  /*width: 100%;*/
+  /*height: 100%;*/
 }
+
 .resumediv{
   margin: 0 auto;
   position: relative;
   width: 1200px;
-  height: 600px;
-  top:10%;
-  background-color: rgba(191, 201, 202, 0.8);
-  border: 5px solid white;
-  border-style: double;;
+  background-color: #a8b6bf;
 }
 
 .resumepage img{
   z-index: 98;
   position: absolute;
   display: inline-block;
-  top:15%;
+  top:23%;
   left: 35%;
-  width:330px;
+  width:380px;
   height: auto;
   opacity: 0.7;
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
 }
 
-.resumepage img:hover {
+.resumediv a img:hover {
   opacity:1;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.pets img{
+  position: absolute;
+  width: 370px;
+  height: auto;
+  top:250px;
+  opacity: 1;
+  left:1057px;
+}
+
 
 
 /*------------------------------------------experience page------------------------------------*/
@@ -175,11 +174,11 @@ li a {
 
 .exprience{
   position: relative;
-  background-color:rgba(216, 207, 198, 0.6);
+  background-color:#8c6854;
   margin: 0 auto;
   width: 1200px;
-  height: 600px;
-  top:10%;
+  /*height: 600px;*/
+  /*top:10%;*/
 }
 
 .titles{
@@ -189,6 +188,7 @@ li a {
   text-align: right;
   font-size: 0.9em;
   left:30px;
+  color:white;
 }
 
 .experienceDe{
@@ -198,20 +198,21 @@ li a {
   right:10px;
   text-align: left;
   font-size: 0.9em;
+  color:white;
 }
 
 .experiencepage .work{
   position: absolute;
   text-align: center;
-  width: 450px;
+  width: 470px;
   height: 330px;
-  top: 18%;
+  top: 27%;
   padding-top: 20px;
   color:black;
-  background-color: rgba(249, 246, 243, 0.4);
+  background-color: rgba(125, 70, 39, 0.6);
 }
 .experiencepage .work:hover{
-  background-color: rgba(249, 246, 243, 1);
+  background-color: rgba(125, 70, 39, 1);
   transition: all 0.7s;
   -webkit-transition: all 0.7s;
 }
@@ -219,8 +220,9 @@ li a {
 /*--------------------------------------------project page--------------------------------------*/
 .projectspage{
   z-index: 97;
-  background-color: #FADBD8;
-  background-image: url("../img/light2.jpeg");
+  /*background-color: #FADBD8;*/
+  /*background-image: url("../img/light2.jpeg");*/
+  background-color: #c9c9c9;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -230,11 +232,11 @@ li a {
 
 .projects{
   position: relative;
-  background-color: rgba(222, 210, 210, 1);
+  background-color: #c2d4d8;
   margin: 0 auto;
   width: 1200px;
-  height: 600px;
-  top:10%;
+  /*height: 600px;*/
+  /*top:10%;*/
 }
 
 .circleBase{
@@ -248,8 +250,8 @@ li a {
   background-color: #117A65;
   padding: 5px;
   width: 80px;
-  height: 15px;
-  left: 150px;
+  height: 17px;
+  left: 180px;
   line-height: 15px;
   text-align: center;
   border-radius: 20px;
@@ -259,8 +261,8 @@ li a {
 
 .pj{
   position: absolute;
-  height: 140px;
-  width: 140px;
+  height: 170px;
+  width: 170px;
   opacity: 0.7;
   background-size: 100%;
 }
@@ -269,29 +271,29 @@ li a {
 .pj:hover{opacity: 1;}
 
 .pj1{
-  left: 13%;
-  top: 6%;
+  left: 14%;
+  top: 13%;
   background-image:url("../img/flappybird.png");
 }
 
 
 .pj2{
   background-color: #D6EAF8;
-  top: 6%;
-  left: 44%;
+  top: 13%;
+  left: 43%;
   background-image:url("../img/R.png");
 }
 
 .pj3{
   background-color: grey;
-  right: 13%;
-  top: 6%;
+  right: 14%;
+  top: 13%;
   background-image:url("../img/maze.png");
 }
 
 .pj4{
   background-color: white;
-  left: 13%;
+  left: 14%;
   top: 50%;
   background-image:url("../img/flow.png");
 }
@@ -299,13 +301,13 @@ li a {
 .pj5{
   background-color: yellow;
   top: 50%;
-  left: 44%;
+  left: 43%;
   background-image:url("../img/sudoku.png");
 }
 
 .pj6{
   background-color: white;
-  right: 13%;
+  right: 14%;
   top: 50%;
   background-image:url("../img/makeup.png");
 }
@@ -328,8 +330,8 @@ li a {
 /*--------------------------------------------contact page--------------------------------------*/
 .contactpage{
   z-index: 97;
-  background-color: #FADBD8;
-  background-image: url("../img/clouds.jpeg");
+  /*background-image: url("../img/clouds.jpeg");*/
+  background-color: #c9d8c5;
   background-repeat:no-repeat;
   background-size: cover;
   width: 100%;
@@ -338,17 +340,16 @@ li a {
 
 .contactpage .contacts{
   position: relative;
-  background-color: rgba(253, 237, 236, 0.8);
+  background-color: #a8b6bf;
   /*background-color: black;*/
   margin: 0 auto;
   width: 1200px;
-  height: 600px;
-  top:12%;
+  height: 800px;
 }
 
 .contactpage .contacts .card{
   width: 40%;
-  height: 43%;
+  height: 33%;
   top: 25%;
   left: 30%;
   /*background-color: white;*/
@@ -362,7 +363,6 @@ li a {
 }
 
 .photoFrame{
-  /*border: 5px solid black;*/
   background-color: #f2a6a6;
   width: 160px;
   height: 160px;
