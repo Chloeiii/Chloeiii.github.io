@@ -54,6 +54,7 @@
 	- [x] add expriences
 	- [x] company images
 	- [x] add company link and transition effect on experiences 
+	- [x] redesign the layout
 * projects page 
 	- [x] add tags for each project
 	- [x] add projects
