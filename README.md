@@ -58,6 +58,7 @@
 * projects page 
 	- [x] add tags for each project
 	- [x] add projects
+	- [ ] redesign projects page(include more details)
 * contact page
 	- [x] wallpaper
 	- [x] email, phone number
