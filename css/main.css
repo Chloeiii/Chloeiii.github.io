@@ -69,22 +69,33 @@ body {
   position: absolute;
   display: inline-block;
   width: 360px;
-  margin-left: 15%;
-  margin-top: 6%;
+  margin-left: 16%;
+  margin-top: 4%;
 }
 .aboutimg img{
   width: 100%;
   height: auto; 
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
 }
+
+.aboutimg img:hover {
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+
 .abouttext{
   position: absolute;
   display: inline-block;
   width: 340px;
   height: auto;
-  margin-left: 55%;
+  margin-left: 53%;
   margin-top: 15%;
-  /*background-color: black;*/
 }
+
 .aboutword{
   font-size: 1.1em;
   word-spacing:2px;
@@ -96,9 +107,8 @@ body {
   display: inline-block;
   width: 130px;
   height: 30px;
-  margin-left: 75%;
-  margin-top: 45%;
-  /*background-color: white;*/
+  margin-left: 73%;
+  margin-top: 42%;
 }
 
 .abouticon a{
@@ -175,9 +185,9 @@ body {
 }
 
 .vl{/*vertical line*/
-  border-left: 10px solid #6a8287;
+  border-left: 8px solid white;
   height: 520px;
-  width: 10px;
+  width: 0px;
   position: absolute;
   left: 50%;
   top: 80px;  
@@ -195,12 +205,13 @@ body {
 }
 
 .dot{
-  height: 30px;
-  width: 30px;
-  background-color: #edd9c0;
+  height: 18px;
+  width: 18px;
+  /*background-color: #edd9c0;*/
+  background-color: pink;
   border-radius: 50%;
   position: absolute;
-  border: 8px solid #6a8287;
+  border: 6px solid white;
 }
 
 .arrow-right {
@@ -208,7 +219,7 @@ body {
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom:15px solid transparent;
-  border-left: 15px solid #6a8287;
+  border-left: 15px solid white;
   /*border-left: 15px solid red;*/
   display: inline-block;
   position: absolute;
@@ -218,7 +229,7 @@ body {
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent; 
-  border-right:15px solid #6a8287; 
+  border-right:15px solid white; 
   display: inline-block;
   position: absolute;
 }
@@ -230,7 +241,7 @@ body {
   text-align: right;
   font-size: 0.8em;
   left:40px;
-  color:white;
+  color:black;
 }
 
 .experienceDe{
@@ -240,13 +251,11 @@ body {
   right:-30px;
   text-align: left;
   font-size: 0.8em;
-  color:white;
+  color:black;
 }
 
 .experiencepage .work{
-  /*border: 3px double grey;*/
-  background-color: #6a8287;
-  /*border-style: double;*/
+  background-color: white;
   position: absolute;
   text-align: center;
   width: 400px;
@@ -254,13 +263,8 @@ body {
   padding-top: 20px;
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
-  /*background-color: rgba(106, 87, 80, 0.6);*/
 }
-/*.experiencepage .work:hover{
-  background-color: rgba(106, 87, 80, 1);
-  transition: all 0.7s;
-  -webkit-transition: all 0.7s;
-}*/
+
 .work:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -272,16 +276,11 @@ body {
 /*--------------------------------------------project page--------------------------------------*/
 .projectspage{
   z-index: 97;
-  /*background-color: #FADBD8;*/
-  /*background-image: url("../img/light2.jpeg");*/
-  /*background-color: #c9c9c9;*/
 }
 
 .projects{
   position: relative;
   background-color: #DDBC95;
-  /*border: 2px solid grey;*/
-  /*background-color: #999999;*/
   border: 2px solid grey;
   margin: 0 auto;
   width: 1200px;
@@ -371,8 +370,6 @@ body {
   position: absolute;
   width: 360px;
   height: 120px;
-  /*background-color: white;*/
-  /*font-family: sans-serif;*/
   text-align: center;
   line-height: 50%
 }
@@ -384,7 +381,6 @@ body {
 
 .contactpage .contacts{
   position: relative;
-  /*background-color: #B38867;*/
   border: 2px solid black;
   margin: 0 auto;
   width: 1200px;
@@ -403,15 +399,6 @@ body {
   background-color: #F7EFE2;
   box-shadow: 2px 4px #000000;
 }
-
-/*.photoFrame{
-  background-color: #f2a6a6;
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  left: 47px;
-  top: 52px;
-}*/
 
 .vertical_dotted_line{
   border-left: 2px dashed black;
