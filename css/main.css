@@ -11,6 +11,7 @@ div {
 body {	
   /*background-image: url("../img/cloud2.jpeg");*/
   background-color: #edd9c0;
+  /*background-color: black;*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center; 
@@ -57,11 +58,12 @@ body {
 .aboutcenter{
   margin: 0 auto;
   position: relative;
-  background-color: #fff; 
+  /*background-color: #fff; */
   opacity: 1;
   width: 1200px;
-  height: 800px;
+  height: 700px;
   top:18%;
+  border: 2px solid grey;
 }
 .aboutimg{
   position: absolute;
@@ -117,6 +119,8 @@ body {
   position: relative;
   width: 1200px;
   background-color: #CDCDC0;
+  height: 700px;
+  top: 100px;
   /*background-color:  #8c8c8c;*/
 }
 
@@ -124,7 +128,7 @@ body {
   z-index: 98;
   position: absolute;
   display: inline-block;
-  top:23%;
+  top:13%;
   left: 35%;
   width:380px;
   height: auto;
@@ -146,7 +150,7 @@ body {
   position: absolute;
   width: 370px;
   height: auto;
-  top:250px;
+  top:150px;
   opacity: 1;
   left:1057px;
 }
@@ -162,33 +166,61 @@ body {
 .exprience{
   position: relative;
   /*background-color:#6a8287;*/
-  background-color:  #626D71;
+  /*background-color:  #626D71;*/
+  border: 2px solid white;
   margin: 0 auto;
   width: 1200px;
+  height: 700px;
+  top:100px;
 }
 
 .vl{/*vertical line*/
-  border-left: 2px solid white;
-  height: 530px;
-  width: 3px;
+  border-left: 10px solid #6a8287;
+  height: 520px;
+  width: 10px;
   position: absolute;
   left: 50%;
-  top: 180px;  
+  top: 80px;  
 }
 
-.hl{/*horizontal line*/
-  border-top: 1px solid white;
-  width: 60px;
-  height: 3px;
+.time{
+  position: absolute;
+  display: inline-block;
+  color:white;
+  font-size: 4em;
+  background-color: black;
+  width: 0;
+  height: 0;
+  letter-spacing: 3px;
+}
+
+.dot{
+  height: 30px;
+  width: 30px;
+  background-color: #edd9c0;
+  border-radius: 50%;
+  position: absolute;
+  border: 8px solid #6a8287;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom:15px solid transparent;
+  border-left: 15px solid #6a8287;
+  /*border-left: 15px solid red;*/
+  display: inline-block;
   position: absolute;
 }
-
-.dot{/*dot*/
-    height: 8px;
-    width: 8px;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; 
+  border-right:15px solid #6a8287; 
+  display: inline-block;
+  position: absolute;
 }
 
 .titles{
@@ -212,8 +244,9 @@ body {
 }
 
 .experiencepage .work{
-  border: 3px solid white;
-  border-style: double;
+  /*border: 3px double grey;*/
+  background-color: #6a8287;
+  /*border-style: double;*/
   position: absolute;
   text-align: center;
   width: 400px;
@@ -247,9 +280,13 @@ body {
 .projects{
   position: relative;
   background-color: #DDBC95;
+  /*border: 2px solid grey;*/
   /*background-color: #999999;*/
+  border: 2px solid grey;
   margin: 0 auto;
   width: 1200px;
+  height: 700px;
+  top:100px;
 }
 
 .circleBase{
@@ -347,15 +384,17 @@ body {
 
 .contactpage .contacts{
   position: relative;
-  background-color: #B38867;
+  /*background-color: #B38867;*/
+  border: 2px solid black;
   margin: 0 auto;
   width: 1200px;
-  height: 800px;
+  height: 700px;
+  top: 100px;
 }
 
 .contactpage .contacts .card{
-  width: 40%;
-  height: 33%;
+  width: 500px;
+  height: 270px;
   top: 25%;
   left: 30%;
   position: absolute;
