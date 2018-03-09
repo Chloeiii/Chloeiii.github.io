@@ -22,49 +22,34 @@ body {
 
 /*-----------------------------------navigation bar----------------------------------*/
 
-ul{
+.nav{
   z-index: 999;
+  list-style: none;
   position: fixed;
-  left: 45%;
-  list-style:none;
-  margin:0;
-  padding:0;
-  margin-top: 20px;
+  width: 99%;
   text-align:center;
+  padding-left:0px;
+  /*background-color: black;*/
+}
+.nav li{
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 15px;
+  padding-right: 10px;
 }
 
-li{
-  display:inline;
-}
-
-li .icons{
-  background-repeat: no-repeat;
-  background-size: 40px 40px;
-  background-position: center top;
-  font-size:3.9em;
-}
-
-li a{
-  display:inline-block;
-  padding-top: 50px;
-  font-size: 12px;
-  font-style: normal;
+.nav li a{
+  margin: 10px 15px;
+  padding: 5px 0px;
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
-  text-align: center;
-  font-family: cursive;
-  text-decoration: none;
-  width: 100px;
-  margin: 0 5px;
-  color: white;
 }
 
-
-li .amelie{background-image: url("../img/amelie.png");}
-li .resume{background-image: url("../img/resume.png");}
-li .bookmark{background-image: url("../img/bookmark.png");}
-li .project{background-image: url("../img/project.png"); }
-li .contact{background-image: url("../img/contact.png");}
+.nav li a:hover{
+  border-bottom: 3px solid white;
+}
 
 
 /*----------------------------------------about page---------------------------------------*/
@@ -80,7 +65,7 @@ li .contact{background-image: url("../img/contact.png");}
 .aboutimg{
   position: absolute;
   display: inline-block;
-  width: 380px;
+  width: 360px;
   margin-left: 15%;
   margin-top: 6%;
 }
@@ -91,15 +76,14 @@ li .contact{background-image: url("../img/contact.png");}
 .abouttext{
   position: absolute;
   display: inline-block;
-  width: 360px;
+  width: 340px;
   height: auto;
   margin-left: 55%;
   margin-top: 15%;
   /*background-color: black;*/
 }
 .aboutword{
-  font-size: 1.2em;
-  font-family: sans-serif;
+  font-size: 1.1em;
   word-spacing:2px;
   line-height: 140%;
   color: #7d4627;
@@ -109,8 +93,8 @@ li .contact{background-image: url("../img/contact.png");}
   display: inline-block;
   width: 130px;
   height: 30px;
-  margin-left: 80%;
-  margin-top: 50%;
+  margin-left: 75%;
+  margin-top: 45%;
   /*background-color: white;*/
 }
 
@@ -125,16 +109,14 @@ li .contact{background-image: url("../img/contact.png");}
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
   z-index: 97;
-  /*background-color: #c9d8c5;*/
-  /*width: 100%;*/
-  /*height: 100%;*/
 }
 
 .resumediv{
   margin: 0 auto;
   position: relative;
   width: 1200px;
-  background-color: #a8b6bf;
+  background-color: #CDCDC0;
+  /*background-color:  #8c8c8c;*/
 }
 
 .resumepage img{
@@ -177,7 +159,8 @@ li .contact{background-image: url("../img/contact.png");}
 
 .exprience{
   position: relative;
-  background-color:#6a8287;
+  /*background-color:#6a8287;*/
+  background-color:  #626D71;
   margin: 0 auto;
   width: 1200px;
 }
@@ -252,7 +235,8 @@ li .contact{background-image: url("../img/contact.png");}
 
 .projects{
   position: relative;
-  background-color: #c7ad88;
+  background-color: #DDBC95;
+  /*background-color: #999999;*/
   margin: 0 auto;
   width: 1200px;
 }
@@ -296,7 +280,7 @@ li .contact{background-image: url("../img/contact.png");}
 
 
 .pj2{
-  background-color: #D6EAF8;
+  background-color: #e6e6e6;
   top: 13%;
   left: 44%;
   background-image:url("../img/R.png");
@@ -317,7 +301,7 @@ li .contact{background-image: url("../img/contact.png");}
 }
 
 .pj5{
-  background-color: yellow;
+  background-color: white;
   top: 53%;
   left: 44%;
   background-image:url("../img/sudoku.png");
@@ -340,7 +324,7 @@ li .contact{background-image: url("../img/contact.png");}
   width: 360px;
   height: 120px;
   /*background-color: white;*/
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
   text-align: center;
   line-height: 50%
 }
@@ -348,14 +332,11 @@ li .contact{background-image: url("../img/contact.png");}
 /*--------------------------------------------contact page--------------------------------------*/
 .contactpage{
   z-index: 97;
-  /*background-image: url("../img/clouds.jpeg");*/
-  /*background-color: #c9d8c5;*/
 }
 
 .contactpage .contacts{
   position: relative;
-  background-color: #E5ADAD;
-  /*background-color: black;*/
+  background-color: #B38867;
   margin: 0 auto;
   width: 1200px;
   height: 800px;
@@ -366,24 +347,21 @@ li .contact{background-image: url("../img/contact.png");}
   height: 33%;
   top: 25%;
   left: 30%;
-  /*background-color: white;*/
   position: absolute;
   border: 2px solid black;
-  border-radius: 15px;
-  background-image: url("../img/card.png");
-  background-position: center;
-  background-size: cover;
-  box-shadow: 5px 8px #888888;
+  border-radius: 5px;
+  background-color: #F7EFE2;
+  box-shadow: 2px 4px #888888;
 }
 
-.photoFrame{
+/*.photoFrame{
   background-color: #f2a6a6;
   width: 160px;
   height: 160px;
   position: absolute;
   left: 47px;
   top: 52px;
-}
+}*/
 
 .vertical_dotted_line{
   border-left: 2px dashed black;
@@ -409,7 +387,7 @@ li .contact{background-image: url("../img/contact.png");}
   width: 40%;
   height: 5%;
   left: 52%;
-  top: 52%;
+  top: 50%;
 }
 
 .contact2{
@@ -418,7 +396,7 @@ li .contact{background-image: url("../img/contact.png");}
   width: 40%;
   height: 5%;
   left: 52%;
-  top: 62%;
+  top: 60%;
 }
 
 .contact3{
@@ -427,7 +405,7 @@ li .contact{background-image: url("../img/contact.png");}
   width: 40%;
   height: 5%;
   left: 52%;
-  top: 72%;
+  top: 70%;
 }
 a {
     color: black;
