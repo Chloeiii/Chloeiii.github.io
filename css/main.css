@@ -10,7 +10,7 @@ div {
 /*background image*/
 body {	
   /*background-image: url("../img/cloud2.jpeg");*/
-  background-color: #edd9c0;
+  background-color: white;
   /*background-color: black;*/
   background-size: cover;
   background-attachment: fixed;
@@ -44,13 +44,13 @@ body {
 .nav li a{
   margin: 10px 15px;
   padding: 5px 0px;
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .nav li a:hover{
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid black;
 }
 
 
@@ -58,42 +58,64 @@ body {
 .aboutcenter{
   margin: 0 auto;
   position: relative;
-  /*background-color: #fff; */
+  background-color: black; 
   opacity: 1;
   width: 1200px;
-  height: 700px;
-  top:18%;
-  border: 2px solid grey;
+  height: 0;
+  top:120px;
+  border-top: 2px solid black;
 }
+
+.ga1{
+  position: absolute;
+  display: inline-block;
+  top:510px;
+  left: 300px;
+  font-family: 'Khand';
+  font-size: 30px;
+}
+.ga2{
+  position: absolute;
+  display: inline-block;
+  top:570px;
+  left: 500px;
+  font-family: 'Khand';
+  font-size: 22px;
+}
+.ga2:hover {
+  /*font-size: 23px;*/
+  text-shadow: 2px 4px 4px pink;
+}
+
 .aboutimg{
   position: absolute;
   display: inline-block;
-  width: 360px;
-  margin-left: 16%;
-  margin-top: 4%;
+  width: 700px;
+  margin-left: 150px;
+  margin-top: 60px;
 }
 .aboutimg img{
   width: 100%;
   height: auto; 
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
+/*  transition: all 0.2s;
+  -webkit-transition: all 0.2s;*/
 }
 
-.aboutimg img:hover {
+/*.aboutimg img:hover {
   -webkit-transform: scale(1.02);
   -moz-transform: scale(1.02);
   -o-transform: scale(1.02);
   transform: scale(1.02);
 }
-
+*/
 
 .abouttext{
   position: absolute;
   display: inline-block;
-  width: 340px;
+  width: 450px;
   height: auto;
   margin-left: 53%;
-  margin-top: 15%;
+  margin-top: 110px;
 }
 
 .aboutword{
@@ -101,13 +123,15 @@ body {
   word-spacing:2px;
   line-height: 140%;
   color: #7d4627;
+  font-family: 'Abel';
+  font-size: 22px;
 }
 .abouticon{
   position: absolute;
   display: inline-block;
   width: 130px;
   height: 30px;
-  margin-left: 73%;
+  margin-left: 80%;
   margin-top: 42%;
 }
 
@@ -122,16 +146,18 @@ body {
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
   z-index: 97;
+  background-color: #edf1f2;
+
 }
 
 .resumediv{
   margin: 0 auto;
   position: relative;
   width: 1200px;
-  background-color: #CDCDC0;
+  background-image: url('../img/bbb.jpeg');
+  background-size: cover;
   height: 700px;
   top: 100px;
-  /*background-color:  #8c8c8c;*/
 }
 
 .resumepage img{
@@ -171,26 +197,32 @@ body {
 .experiencepage{
   z-index: 97;
   font-family: sans-serif;
+  background-color: white;
+  /*background-image: url('../img/ccc.jpg');*/
+  /*background-size: cover;*/
 }
 
 .exprience{
   position: relative;
   /*background-color:#6a8287;*/
   /*background-color:  #626D71;*/
-  border: 2px solid white;
+  /*background-color: darkgrey;*/
+  /*border: 2px solid white;*/
+  background-image: url('../img/ccc.jpeg');
+  background-size: cover;
   margin: 0 auto;
-  width: 1200px;
-  height: 700px;
-  top:100px;
+  width: 700px;
+  height: 400px;
+  top:260px;
 }
 
 .vl{/*vertical line*/
-  border-left: 8px solid white;
+  border-left: 3px dashed #edf1f2;
   height: 520px;
   width: 0px;
   position: absolute;
   left: 50%;
-  top: 80px;  
+  top: -50px;  
 }
 
 .time{
@@ -205,13 +237,13 @@ body {
 }
 
 .dot{
-  height: 18px;
-  width: 18px;
+  height: 10px;
+  width: 10px;
   /*background-color: #edd9c0;*/
   background-color: pink;
   border-radius: 50%;
   position: absolute;
-  border: 6px solid white;
+  border: 2px solid white;
 }
 
 .arrow-right {
@@ -219,19 +251,21 @@ body {
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom:15px solid transparent;
-  border-left: 15px solid white;
+  border-left: 15px solid #edf1f2;
   /*border-left: 15px solid red;*/
   display: inline-block;
   position: absolute;
+  /*border-color:  #edf1f2;*/
 }
 .arrow-left {
   width: 0; 
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent; 
-  border-right:15px solid white; 
+  border-right:15px solid #edf1f2; 
   display: inline-block;
   position: absolute;
+  /*border-color:  #edf1f2;*/
 }
 
 .titles{
@@ -255,7 +289,7 @@ body {
 }
 
 .experiencepage .work{
-  background-color: white;
+  background-color:  #edf1f2;
   position: absolute;
   text-align: center;
   width: 400px;
@@ -276,12 +310,16 @@ body {
 /*--------------------------------------------project page--------------------------------------*/
 .projectspage{
   z-index: 97;
+  background-image: url('../img/ddd.jpeg');
+  background-size: cover;
 }
 
 .projects{
   position: relative;
-  background-color: #DDBC95;
-  border: 2px solid grey;
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 2px solid grey;*/
+  /*background-image: url('../img/ccc.jpeg');*/
+  /*background-size: cover;*/
   margin: 0 auto;
   width: 1200px;
   height: 700px;
@@ -381,18 +419,21 @@ body {
 
 .contactpage .contacts{
   position: relative;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
+  background-image: url('../img/eee.jpeg');
+  background-size: cover;
   margin: 0 auto;
-  width: 1200px;
-  height: 700px;
-  top: 100px;
+  width: 700px;
+  height: 500px;
+  top: 200px;
+  left:-200px;
 }
 
 .contactpage .contacts .card{
   width: 500px;
   height: 270px;
-  top: 25%;
-  left: 30%;
+  top: 150px;
+  left: 500px;
   position: absolute;
   border: 2px solid black;
   border-radius: 5px;
@@ -414,8 +455,8 @@ body {
 }
 
 .contacttext:hover {
-  font-size: 102%;
-  text-shadow: 2px 2px 4px #B38867;
+  /*font-size: 102%;*/
+  text-shadow: 2px 2px 4px pink;
 }
 
 .contact1{

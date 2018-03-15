@@ -28,6 +28,7 @@
 * [Icons8](https://icons8.com/icon/set/nav-bar/all): innovative icons  
 * [Iconfinder](https://www.iconfinder.com/): sets of icons
 * [Pexels](https://www.pexels.com/): photos
+* [Google fonts](https://fonts.google.com/):online fonts
 ----
 
 #### INSPIRATION
