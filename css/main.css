@@ -17,8 +17,8 @@ body {
   background-position: center; 
 	margin: 0;
  	padding: 0;
-  min-width: 1440px;
-  min-height: 900px;
+  min-width: 1024px;
+  min-height: 640px;
 }
 
 /*-----------------------------------navigation bar----------------------------------*/
@@ -61,7 +61,6 @@ body {
 .aboutcenter{
   margin: 0 auto;
   position: relative;
-  background-color: black; 
   opacity: 1;
   width: 1200px;
   height: 0;
@@ -76,7 +75,8 @@ body {
   left: 280px;
   font-family: 'Khand';
   font-size: 25px;
-  letter-spacing:2px
+  letter-spacing:2px;
+  /*background-color:black;*/
 }
 .ga2{
   position: absolute;
