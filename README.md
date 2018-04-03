@@ -40,7 +40,6 @@
 
 #### TO DO LIST
 * main page basic & fixed navigation bar 
-	- [ ] place navigation bar on the top and add scroll effect
 	- [x] design and replace main page background photo    
 * cover page
 	- [x] profile photo
@@ -67,7 +66,6 @@
 * other
 	- [x] reformat css file
 	- [x] adjust div to fit other screen sizes
-	- [ ] add some js effects to the site
 	- [ ] mobile friendly
 ----  
 
