@@ -288,27 +288,29 @@ body {
   width: 60px;
   height: 150px;
   text-align: right;
-  font-size: 0.8em;
-  left:40px;
+  font-size: 0.7em;
+  left:20px;
   color:black;
+  line-height: 70%;
 }
 
 .experienceDe{
   position: absolute;
   width: 310px;
   height: 170px;
-  right:-30px;
+  right:-50px;
   text-align: left;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color:black;
+  line-height: 70%;
 }
 
 .experiencepage .work{
   background-color:  #edf1f2;
   position: absolute;
   text-align: center;
-  width: 400px;
-  height: 270px;
+  width: 350px;
+  height: 200px;
   padding-top: 20px;
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
