@@ -1,0 +1,183 @@
+/*Chloe Yu 2018*/
+html, body { height: 100%; width:100%; padding: 0; margin: 0; }
+
+div { 
+  width: 100%; 
+  height: 100%;
+}
+
+/*background image*/
+body {  
+  /*background-image: url("../img/cloud2.jpeg");*/
+  background-color: white;
+  /*background-color: black;*/
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+  margin: 0;
+  padding: 0;
+  min-width: 1024px;
+  min-height: 640px;
+}
+
+/*-----------------------------------navigation bar----------------------------------*/
+.nav{
+  z-index: 999;
+  list-style: none;
+  position: fixed;
+  width: 99%;
+  height: 80px;
+  text-align:center;
+  padding-left:0px;
+  /*background-color: black;*/
+}
+.nav li{
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.nav li a{
+  margin: 10px 15px;
+  padding: 5px 0px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Khand';
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.nav li a:hover{
+  border-bottom: 3px solid black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------------------------------experience page------------------------------------*/
+.experiencepage{
+  z-index: 97;
+  /*font-family: sans-serif;*/
+  background-color: white;
+  font-family: 'Abel';
+  /*background-image: url('../img/ccc.jpg');*/
+  /*background-size: cover;*/
+}
+
+.exprience{
+  position: relative;
+  background-image: url('../img/ccc.jpeg');
+  background-size: cover;
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+  top:260px;
+}
+
+.vl{/*vertical line*/
+  border-left: 3px dashed #edf1f2;
+  height: 520px;
+  width: 0px;
+  position: absolute;
+  left: 50%;
+  top: -50px;  
+}
+
+.time{
+  position: absolute;
+  display: inline-block;
+  color:white;
+  font-size: 4em;
+  background-color: black;
+  width: 0;
+  height: 0;
+  letter-spacing: 3px;
+}
+
+.dot{
+  height: 10px;
+  width: 10px;
+  /*background-color: #edd9c0;*/
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom:15px solid transparent;
+  border-left: 15px solid #edf1f2;
+  /*border-left: 15px solid red;*/
+  display: inline-block;
+  position: absolute;
+  /*border-color:  #edf1f2;*/
+}
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; 
+  border-right:15px solid #edf1f2; 
+  display: inline-block;
+  position: absolute;
+  /*border-color:  #edf1f2;*/
+}
+
+.titles{
+  position: absolute;
+  width: 60px;
+  height: 150px;
+  text-align: right;
+  font-size: 0.9em;
+  left:20px;
+  color:black;
+  line-height: 50%;
+}
+
+.experienceDe{
+  position: absolute;
+  width: 310px;
+  /*height: 0px;*/
+  left: 100px;
+  text-align: left;
+  font-size: 0.9em;
+  color:black;
+  line-height: 50%;
+}
+
+.experiencepage .work{
+  background-color:  #edf1f2;
+  position: absolute;
+  text-align: center;
+  width: 350px;
+  height: 210px;
+  padding-top: 20px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+.work:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.withborder {
+  width: 180px ;
+  height: 60px;
+/*  border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;*/
+  border: 2px solid #BECECF;
+  padding: 10px;
+}

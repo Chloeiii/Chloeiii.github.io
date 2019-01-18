@@ -1,0 +1,169 @@
+/*Chloe Yu 2018*/
+html, body { height: 100%; width:100%; padding: 0; margin: 0; }
+
+div { 
+	width: 100%; 
+	height: 100%;
+}
+
+/*background image*/
+body {	
+  /*background-image: url("../img/cloud2.jpeg");*/
+  background-color: white;
+  /*background-color: black;*/
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+	margin: 0;
+ 	padding: 0;
+  min-width: 1024px;
+  min-height: 640px;
+}
+
+/*-----------------------------------navigation bar----------------------------------*/
+
+.nav{
+  z-index: 999;
+  list-style: none;
+  position: fixed;
+  width: 99%;
+  height: 80px;
+  text-align:center;
+  padding-left:0px;
+  /*background-color: black;*/
+}
+.nav li{
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.nav li a{
+  margin: 10px 15px;
+  padding: 5px 0px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Khand';
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.nav li a:hover{
+  border-bottom: 3px solid black;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*--------------------------------------------project page--------------------------------------*/
+.projectspage{
+  z-index: 97;
+  background-image: url('../img/ddd.jpeg');
+  background-size: cover;
+}
+
+.projects{
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 2px solid grey;*/
+  /*background-image: url('../img/ccc.jpeg');*/
+  /*background-size: cover;*/
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  top:100px;
+}
+
+.circleBase{
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* IE8 */ 
+}
+
+.invisible{
+  display: none;
+  position: absolute;
+  background-color: #117A65;
+  padding: 5px;
+  width: 80px;
+  height: 17px;
+  left: 180px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.pj{
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  opacity: 0.7;
+  background-size: 100%;
+}
+
+.pj:hover .invisible{display:block;}
+.pj:hover{opacity: 1;}
+
+.pj1{
+  left: 16%;
+  top: 13%;
+  background-image:url("../img/flappybird.png");
+}
+
+
+.pj2{
+  background-color: #e6e6e6;
+  top: 13%;
+  left: 44%;
+  background-image:url("../img/R.png");
+}
+
+.pj3{
+  background-color: grey;
+  right: 16%;
+  top: 13%;
+  background-image:url("../img/maze.png");
+}
+
+.pj4{
+  background-color: white;
+  left: 16%;
+  top: 53%;
+  background-image:url("../img/flow.png");
+}
+
+.pj5{
+  background-color: white;
+  top: 53%;
+  left: 44%;
+  background-image:url("../img/sudoku.png");
+}
+
+.pj6{
+  background-color: white;
+  right: 16%;
+  top: 53%;
+  background-image:url("../img/makeup.png");
+}
+
+.sansserif {
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-size: 13px;
+}
+
+.pjtext{
+  position: absolute;
+  width: 360px;
+  height: 120px;
+  text-align: center;
+  line-height: 50%;
+  font-family: 'Abel';
+}
+

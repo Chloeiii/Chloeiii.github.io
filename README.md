@@ -41,10 +41,9 @@
 #### TO DO LIST
 * main page basic & fixed navigation bar 
 	- [x] design and replace main page background photo    
-* cover page
+* hello page
 	- [x] profile photo
 	- [x] wallpaper
-	- [x] redesign portfolio card
 * resume page
 	- [x] reset wallpaper  
 	- [x] link resume pdf
@@ -56,7 +55,7 @@
 	- [x] add company link and transition effect on experiences 
 	- [x] redesign the layout
 * projects page 
-	- [x] add tags for each project
+	- [x] add tags
 	- [x] add projects
 	- [ ] redesign projects page(include more details)
 * contact page

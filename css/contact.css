@@ -1,0 +1,147 @@
+/*Chloe Yu 2018*/
+html, body { height: 100%; width:100%; padding: 0; margin: 0; }
+
+div { 
+	width: 100%; 
+	height: 100%;
+}
+
+/*background image*/
+body {	
+  /*background-image: url("../img/cloud2.jpeg");*/
+  background-color: white;
+  /*background-color: black;*/
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+	margin: 0;
+ 	padding: 0;
+  min-width: 1024px;
+  min-height: 640px;
+}
+
+/*-----------------------------------navigation bar----------------------------------*/
+
+.nav{
+  z-index: 999;
+  list-style: none;
+  position: fixed;
+  width: 99%;
+  height: 80px;
+  text-align:center;
+  padding-left:0px;
+  /*background-color: black;*/
+}
+.nav li{
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.nav li a{
+  margin: 10px 15px;
+  padding: 5px 0px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Khand';
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.nav li a:hover{
+  border-bottom: 3px solid black;
+}
+
+/*--------------------------------------------contact page--------------------------------------*/
+.contactpage{
+  z-index: 97;
+}
+
+.contactpage .contacts{
+  position: relative;
+  /*border: 2px solid black;*/
+  background-image: url('../img/eee.jpeg');
+  background-size: cover;
+  margin: 0 auto;
+  width: 700px;
+  height: 500px;
+  top: 200px;
+  left:-200px;
+}
+
+
+.contactpage .contacts .card{
+  width: 500px;
+  height: 270px;
+  top: 150px;
+  left: 500px;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #F7EFE2;
+  box-shadow: 2px 4px #000000;
+}
+
+.card img{
+  width:140px;
+  height:auto;
+  position: absolute; 
+  left: 12%; 
+  top: 24%; 
+  z-index: 999;"
+}
+
+.vertical_dotted_line{
+  border-left: 2px dashed black;
+  height: 80%;
+  position: absolute;
+  left: 47%;
+  top: 10%;
+} 
+
+.contacttext{
+  font-size: 100%;
+  display: inline;
+  font-family: 'Abel';
+}
+
+.contacttext:hover {
+  /*font-size: 102%;*/
+  text-shadow: 2px 2px 4px pink;
+}
+
+.contact1{
+  position: absolute;
+  text-decoration: none;
+  display: inline-block;
+  width: 40%;
+  height: 5%;
+  left: 52%;
+  top: 50%;
+}
+
+.contact2{
+  position: absolute;
+  display: inline-block;
+  width: 40%;
+  height: 5%;
+  left: 52%;
+  top: 60%;
+}
+
+.contact3{
+  position: absolute;
+  display: inline-block;
+  width: 40%;
+  height: 5%;
+  left: 52%;
+  top: 70%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

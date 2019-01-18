@@ -1,0 +1,128 @@
+/*Chloe Yu 2018*/
+
+html, body { height: 100%; width:100%; padding: 0; margin: 0; }
+
+div { 
+	width: 100%; 
+	height: 100%;
+}
+
+/*background image*/
+body {	
+  /*background-image: url("../img/cloud2.jpeg");*/
+  background-color: white;
+  /*background-color: black;*/
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+	margin: 0;
+ 	padding: 0;
+  min-width: 1024px;
+  min-height: 640px;
+}
+
+/*-----------------------------------navigation bar----------------------------------*/
+
+.nav{
+  z-index: 999;
+  list-style: none;
+  position: fixed;
+  width: 99%;
+  height: 80px;
+  text-align:center;
+  padding-left:0px;
+  /*background-color: black;*/
+}
+.nav li{
+  display: inline-block;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.nav li a{
+  margin: 10px 15px;
+  padding: 5px 0px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Khand';
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.nav li a:hover{
+  border-bottom: 3px solid black;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*-----------------------------------------resume page--------------------------------------*/
+.resumepage{
+  z-index: 97;
+  background-color: #edf1f2;
+}
+
+.resumediv{
+  margin: 0 auto;
+  position: relative;
+  width: 1200px;
+  background-image: url('../img/fruit.jpg');
+  background-size: cover;
+  height: 700px;
+  top: 100px;
+  font-family: 'Abel';
+}
+
+.resume_tablecloth{
+  margin: 0 auto;
+  width: 900px;
+  background-color: rgba(237, 241, 242, 0.9);;
+}
+
+section{
+  margin: 0 auto;
+  width: 500px;
+  /*padding-bottom: 30px;*/
+}
+
+.section-title{
+  width: 30%;
+  float: left;
+}
+
+.section-content{
+  width: 60%;
+  float: right;
+}
+
+.resumepage h3{
+  color: #3E5B62;
+}
+
+.resumepage p{
+  /*line-height: 1.3em;*/ /* within paragraph */
+  margin-bottom: -10px; /* between paragraphs */
+}
+
+hr.hrstyle{
+  border-top: 1px dashed #8c8b8b; 
+}
+
+hr.hrstyle:after { 
+  content: '\002702'; 
+  display: inline-block; 
+  position: relative; 
+  top: -12px; 
+  left: 40px; 
+  padding: 0 3px; 
+  background: #f0f0f0; 
+  color: #8c8b8b; 
+  font-size: 18px; 
+}
+
