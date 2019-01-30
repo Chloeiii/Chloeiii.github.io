@@ -70,7 +70,7 @@ a {
 
 .projects{
   position: relative;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
   /*border: 2px solid grey;*/
   /*background-image: url('../img/ccc.jpeg');*/
   /*background-size: cover;*/
@@ -104,7 +104,7 @@ a {
   position: absolute;
   height: 160px;
   width: 160px;
-  opacity: 0.7;
+  opacity: 0.8;
   background-size: 100%;
 }
 
@@ -112,45 +112,64 @@ a {
 .pj:hover{opacity: 1;}
 
 .pj1{
+  background-color: white;
   left: 16%;
   top: 13%;
-  background-image:url("../img/flappybird.png");
+  background-image:url("../img/ice-coffee.png");
+  background-repeat: no-repeat;
+  background-size: 80px auto;
+  background-position: center; 
 }
 
 
 .pj2{
-  background-color: #e6e6e6;
+  background-color: white;
   top: 13%;
   left: 44%;
-  background-image:url("../img/R.png");
+  background-image:url("../img/coffee-beans.png");
+  background-repeat: no-repeat;
+  background-size: 80px auto;
+  background-position: center; 
 }
 
 .pj3{
-  background-color: grey;
+  background-color: white;
   right: 16%;
   top: 13%;
-  background-image:url("../img/maze.png");
+  background-image:url("../img/milk-bottle.png");
+  background-repeat: no-repeat;
+  background-size: 80px auto;
+  background-position: center; 
 }
 
 .pj4{
   background-color: white;
   left: 16%;
   top: 53%;
-  background-image:url("../img/flow.png");
+  background-image:url("../img/tea-bag.png");
+  background-repeat: no-repeat;
+  background-size: 80px auto;
+  background-position: center; 
 }
 
 .pj5{
   background-color: white;
   top: 53%;
   left: 44%;
-  background-image:url("../img/sudoku.png");
+  background-image:url("../img/frappe.png");
+  background-repeat: no-repeat;
+  background-size: 80px auto;
+  background-position: center; 
 }
 
 .pj6{
   background-color: white;
   right: 16%;
   top: 53%;
-  background-image:url("../img/makeup.png");
+  background-image:url("../img/tea-cup.png");
+  background-repeat: no-repeat;
+  background-size: 80px auto;
+  background-position: center; 
 }
 
 .sansserif {
