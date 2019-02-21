@@ -65,15 +65,16 @@ a {
 /*-----------------------------------------resume page--------------------------------------*/
 .resumepage{
   z-index: 97;
-  background-color: #edf1f2;
+  /*background-color: #edf1f2;*/
 }
 
 .resumediv{
   margin: 0 auto;
   position: relative;
   width: 1200px;
-  background-image: url('../img/fruit.jpg');
+  background-image: url('../img/62.jpeg');
   background-size: cover;
+  background-position: center; 
   height: 700px;
   top: 100px;
   font-family: 'Abel';

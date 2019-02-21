@@ -71,12 +71,13 @@ a {
 
 .exprience{
   position: relative;
-  background-image: url('../img/ccc.jpeg');
+  /*background-image: url('../img/ccc.jpeg');*/
+  background-image: url('../img/11.jpeg');
   background-size: cover;
   margin: 0 auto;
   width: 700px;
-  height: 400px;
-  top:260px;
+  height: 450px;
+  top:220px;
 }
 
 .vl{/*vertical line*/
@@ -85,7 +86,7 @@ a {
   width: 0px;
   position: absolute;
   left: 50%;
-  top: -50px;  
+  top: -10px;  
 }
 
 .time{
