@@ -9,7 +9,7 @@ div {
 /*background image*/
 body {	
   /*background-image: url("../img/cloud2.jpeg");*/
-  background-color: white;
+  background-color: #F4F4F4;
   /*background-color: black;*/
   background-size: cover;
   background-attachment: fixed;
@@ -63,13 +63,13 @@ body {
 .contactpage .contacts{
   position: relative;
   /*border: 2px solid black;*/
-  background-image: url('../img/1232.jpeg');
+  background-image: url('../img/5.jpeg');
   background-size: cover;
   background-position: center; 
   margin: 0 auto;
   width: 700px;
-  height: 500px;
-  top: 170px;
+  height: 80%;
+  top: 12%;
   left:-100px;
 }
 
@@ -77,12 +77,13 @@ body {
 .contactpage .contacts .card{
   width: 500px;
   height: 270px;
-  top: 120px;
+  top: 25%;
   left: 400px;
   position: absolute;
-  border: 2px solid white;
+  border: 1px solid #204060;
   
-  background-color:	#204060;
+  /*background-color:	#204060;*/
+  background-color:  white;
 }
 
 .card img{
@@ -95,11 +96,11 @@ body {
 }
 
 .vertical_dotted_line{
-  border-left: 2px dashed white;
-  height: 80%;
+  border-left: 1px dashed #204060;
+  height: 70%;
   position: absolute;
   left: 47%;
-  top: 10%;
+  top: 14%;
 } 
 
 .contacttext{
@@ -142,6 +143,6 @@ body {
 }
 
 a {
-    color: white;
+    color: #204060;
     text-decoration: none;
 }

@@ -65,28 +65,29 @@ a {
   /*font-family: sans-serif;*/
   background-color: white;
   font-family: 'Abel';
-  /*background-image: url('../img/ccc.jpg');*/
-  /*background-size: cover;*/
+  background-image: url('../img/6.jpeg');
+  background-size: cover;
 }
 
 .exprience{
   position: relative;
   /*background-image: url('../img/ccc.jpeg');*/
-  background-image: url('../img/11.jpeg');
+  /*background-image: url('../img/3.jpg');*/
+  background-color: rgba(242, 243, 243, 0.5);
   background-size: cover;
   margin: 0 auto;
-  width: 700px;
-  height: 450px;
-  top:220px;
+  width: 50%;
+  height: 60%;
+  top:20%;
 }
 
 .vl{/*vertical line*/
-  border-left: 3px dashed #edf1f2;
-  height: 520px;
+  border-left: 3px dashed #BBC0C2;
+  height: 110%;
   width: 0px;
   position: absolute;
   left: 50%;
-  top: -10px;  
+  top: -5%;  
 }
 
 .time{
@@ -104,7 +105,7 @@ a {
   height: 10px;
   width: 10px;
   /*background-color: #edd9c0;*/
-  background-color: pink;
+  background-color: #BBCFCF;
   border-radius: 50%;
   position: absolute;
   border: 2px solid white;
@@ -115,7 +116,7 @@ a {
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom:15px solid transparent;
-  border-left: 15px solid #edf1f2;
+  border-left: 15px solid #F9FAFA;
   /*border-left: 15px solid red;*/
   display: inline-block;
   position: absolute;
@@ -126,7 +127,7 @@ a {
   height: 0; 
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent; 
-  border-right:15px solid #edf1f2; 
+  border-right:15px solid #F9FAFA; 
   display: inline-block;
   position: absolute;
   /*border-color:  #edf1f2;*/
@@ -155,7 +156,8 @@ a {
 }
 
 .experiencepage .work{
-  background-color:  #edf1f2;
+  /*background-color:  #edf1f2;*/
+  background-color: #F9FAFA; 
   position: absolute;
   text-align: center;
   width: 350px;

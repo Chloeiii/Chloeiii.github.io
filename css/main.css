@@ -9,7 +9,7 @@ div {
 /*background image*/
 body {	
   /*background-image: url("../img/cloud2.jpeg");*/
-  background-color: white;
+  background-color: #F4F4F4;
   /*background-color: black;*/
   background-size: cover;
   background-attachment: fixed;
@@ -68,8 +68,8 @@ a {
   opacity: 1;
   width: 1200px;
   height: 0;
-  top:120px;
-  border-top: 2px solid black;
+  top:100px;
+  border-top: 1px solid grey;
 }
 
 /*.ga1{
@@ -119,7 +119,8 @@ a {
   display: inline-block;
   width: 600px;
   margin-left: 150px;
-  margin-top: 60px;
+  /*margin-top: 20px;*/
+  margin-top: 2%;
 }
 .aboutimg img{
   width: 100%;
@@ -133,8 +134,9 @@ a {
   display: inline-block;
   width: 360px;
   height: auto;
-  margin-left: 55%;
-  margin-top: 140px;
+  margin-left: 53%;
+  /*margin-top: 140px;*/
+  margin-top: 8%;
 }
 
 .aboutword{

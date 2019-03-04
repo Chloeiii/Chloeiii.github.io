@@ -9,7 +9,7 @@ div {
 /*background image*/
 body {	
   /*background-image: url("../img/cloud2.jpeg");*/
-  background-color: white;
+  background-color: #F4F4F4;
   /*background-color: black;*/
   background-size: cover;
   background-attachment: fixed;
@@ -65,7 +65,7 @@ a {
 .projectspage{
   z-index: 97;
   /*background-image: url('../img/222.jpeg');*/
-  background-image: url('../img/2221.jpeg');
+  background-image: url('../img/2.jpeg');
   background-size: cover;
   width: 1200px;
   /*height: 700px;*/
@@ -75,7 +75,7 @@ a {
 
 .projects{
   position: relative;
-  background-color: rgba(255, 255, 255, 0.8);
+  /*background-color: rgba(255, 255, 255, 0.8);*/
   /*background-image: url('../img/2221.jpeg');*/
 
   /*border: 2px solid grey;*/
@@ -92,10 +92,23 @@ a {
   behavior: url(PIE.htc); /* IE8 */ 
 }
 
+.circleBase p{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-size: 4em; 
+  top: 50px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 100%;  
+  font-family: 'Abel';
+
+}
+
 .invisible{
   display: none;
   position: absolute;
-  background-color: #117A65;
+  background-color: #62878C;
   padding: 5px;
   width: 80px;
   height: 17px;
@@ -122,7 +135,8 @@ a {
   background-color: white;
   left: 16%;
   top: 13%;
-  background-image:url("../img/ice-coffee.png");
+  /*background-image:url("../img/ice-coffee.png");*/
+  background-color: #B7C8CB;
   background-repeat: no-repeat;
   background-size: 80px auto;
   background-position: center; 
@@ -130,10 +144,11 @@ a {
 
 
 .pj2{
+  /*background-color: #B7C8CB;*/
   background-color: white;
   top: 13%;
   left: 44%;
-  background-image:url("../img/coffee-beans.png");
+  /*background-image:url("../img/coffee-beans.png");*/
   background-repeat: no-repeat;
   background-size: 80px auto;
   background-position: center; 
@@ -143,7 +158,8 @@ a {
   background-color: white;
   right: 16%;
   top: 13%;
-  background-image:url("../img/milk-bottle.png");
+  /*background-image:url("../img/milk-bottle.png");*/
+  background-color: #B7C8CB;
   background-repeat: no-repeat;
   background-size: 80px auto;
   background-position: center; 
@@ -153,7 +169,8 @@ a {
   background-color: white;
   left: 16%;
   top: 53%;
-  background-image:url("../img/tea-bag.png");
+  /*background-image:url("../img/tea-bag.png");*/
+  /*background-color: #B7C8CB;*/
   background-repeat: no-repeat;
   background-size: 80px auto;
   background-position: center; 
@@ -163,7 +180,8 @@ a {
   background-color: white;
   top: 53%;
   left: 44%;
-  background-image:url("../img/frappe.png");
+  /*background-image:url("../img/frappe.png");*/
+  background-color: #B7C8CB;
   background-repeat: no-repeat;
   background-size: 80px auto;
   background-position: center; 
@@ -173,7 +191,8 @@ a {
   background-color: white;
   right: 16%;
   top: 53%;
-  background-image:url("../img/tea-cup.png");
+  /*background-image:url("../img/tea-cup.png");*/
+  /*background-color: #B7C8CB;*/
   background-repeat: no-repeat;
   background-size: 80px auto;
   background-position: center; 
