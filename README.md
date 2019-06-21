@@ -65,7 +65,7 @@
 * other
 	- [x] reformat css file
 	- [x] adjust div to fit other screen sizes
-	- [ ] mobile friendly
+	- [ ] Code Refactor (rebuild the site with React)
 ----  
 
 #### NOTES
